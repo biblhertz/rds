@@ -29,6 +29,9 @@ body {
   box-shadow: none;
   border: none;
 }
+.nav-link {
+  color: #8E1B15;
+}
 .nav-tabs > .nav-link.active, .nav-tabs > .nav-link.active:focus, .nav-tabs > .nav-link.active:hover {
 background-color: rgb(245,245,245);
   border-top: solid thin white;
