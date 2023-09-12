@@ -216,6 +216,6 @@ div:has(div.vis-active) .fa-expand::before {
   color: black;
   font-size: 1.5rem;
   }
- .navbar-default, .navbar-inverse, .metaphacts-header-navbar.bg-primary {
+  .navbar, .navbar-default, .navbar-inverse, .metaphacts-header-navbar.bg-primary {
   background-color: rgb(245,245,245) !important;
 }
