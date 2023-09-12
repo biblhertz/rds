@@ -217,5 +217,8 @@ div:has(div.vis-active) .fa-expand::before {
   font-size: 1.5rem;
   }
   .navbar, .navbar-default, .navbar-inverse, .metaphacts-header-navbar.bg-primary {
-  background-color: rgb(245,245,245) !important;
-}
+  background-color: rgb(245,245,245)!important;
+  }
+  .metaphacts-header-navbar.navbar.navbar-logo-name {
+  display: none;
+  }
