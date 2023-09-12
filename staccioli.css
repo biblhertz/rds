@@ -205,15 +205,12 @@ div:has(div.vis-active) .fa-expand::before {
   font-weight: 600;
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-.navbar-default, .navbar-inverse, .metaphacts-header-navbar.bg-primary {
-  background-color: transparent;
-}
 .navbar-brand {
   display: none;
 }
 .navbar-name:after {
   content: "Biblioteca Hertziana - Max Planck Institute for Art History";
-  color: black;
+  color: whitesmoke;
   font-size: 1.5rem;
   }
   .navbar, .navbar-default, .navbar-inverse, .metaphacts-header-navbar.bg-primary {
