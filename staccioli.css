@@ -200,13 +200,13 @@ img.floating {
 } 
 .fa-expand::before {
   content: "▲ SCROLL ▼";  /*"\F065";*/
-  color: #008cba;
+  color: #8E1B15;
   font-weight: 600;
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 div:has(div.vis-active) .fa-expand::before {
   content: "◀ ZOOM ▶";
-  color: #008cba;
+  color: #8E1B15;
   font-weight: 600;
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
