@@ -217,5 +217,5 @@ div:has(div.vis-active) .fa-expand::before {
   background-color: rgb(245,245,245)!important;
   }
   .metaphacts-header-navbar.navbar.navbar-logo-name {
-  display: none;
+  display: none;  /*nuclear option*/
   }
