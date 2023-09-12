@@ -4,6 +4,8 @@ body {
   .page {
     background-color: rgb(245,245,245);
     padding-top: 20px;
+    margin-left: 2%;
+    margin-right: 2%;
   }
   .navbar-nav {
     background-color: gray;
