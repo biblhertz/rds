@@ -127,8 +127,10 @@ background-color: rgb(245,245,245);
     width: 280px;
     overflow: hidden;
     text-overflow: ellipsis;
-    font-size: 15px;
-    text-align: left;
+    font-size: 14px;
+    text-align: center;
+    padding-left: 6px;
+    padding-right: 6px;
     }
     .vis-item .vis-item-content {
   white-space: wordwrap;
@@ -139,8 +141,8 @@ background-color: rgb(245,245,245);
     margin: 20px auto;
   }
   .img-inset, .floating {
-    max-height: 260px;
-    max-width: 260px;
+    max-height: 278px;
+    max-width: 278px;
     object-fit: fill;
     border: thin solid whitesmoke;
     border-radius: 6px;
