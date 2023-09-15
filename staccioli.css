@@ -144,7 +144,7 @@ background-color: rgb(245,245,245);
     object-fit: fill;
     border: thin solid whitesmoke;
     border-radius: 6px;
-    filter: grayscale(100%);
+/*    filter: grayscale(100%); */
   }
 /*  div[data-flex-self]:hover .img-inset, div.card:hover img.floating {
     filter: grayscale(0%);
