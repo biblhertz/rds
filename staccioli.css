@@ -1,5 +1,8 @@
 body {
     background-color: rgb(245,245,245);
+    background-image: url('https://biblhertz.github.io/rds/rsc/BH_LOGO_EN_3C_P_ORIZ.png');
+    background-repeat: no-repeat;
+    background-position-x: center; 
   }
   .page {
     background-color: rgb(245,245,245);
