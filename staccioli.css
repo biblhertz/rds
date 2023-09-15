@@ -4,10 +4,9 @@ body {
     background-repeat: no-repeat;
     background-position-x: 60px;
     background-position-y: 60px;
-    background-size: 300px 66px;
+    background-size: 300px 67px;
   }
   .page {
-    background-color: rgb(245,245,245);
     padding-top: 20px;
     margin-left: 2%;
     margin-right: 2%;
