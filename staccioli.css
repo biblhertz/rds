@@ -2,8 +2,9 @@ body {
     background-color: rgb(245,245,245);
     background-image: url('https://biblhertz.github.io/rds/rsc/BH_LOGO_EN_3C_P_ORIZ.png');
     background-repeat: no-repeat;
-    background-position-z: 60px;
     background-position-x: 60px;
+    background-position-y: 60px;
+    background-size: 300px 66px;
   }
   .page {
     background-color: rgb(245,245,245);
@@ -123,7 +124,6 @@ background-color: rgb(245,245,245);
     margin: 12px;
     background-color: white;
   }
-  }
   .panel-body {
     height: 240px;
     }
@@ -195,7 +195,7 @@ img.floating {
   .tab-pane {
   padding-top: 0rem;
   margin-bottom: 0;
-  padding-botttom: 20px
+  padding-bottom: 20px
 }
  button.SemanticTimeline--fitButton, .btn-secondary:focus, .btn-secondary.focus {
   background-color: white;
