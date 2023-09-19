@@ -130,7 +130,7 @@ background-color: rgb(245,245,245);
     position: relative;
     border: none;
     height: 40px;
-    margin: 30px 20px 10px 20px;
+    margin: 70px 20px 10px 20px;
     width: 280px;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -138,6 +138,7 @@ background-color: rgb(245,245,245);
     text-align: center;
     padding-left: 6px;
     padding-right: 6px;
+    background-color: transparent;
     }
     .vis-item .vis-item-content {
   white-space: wordwrap;
