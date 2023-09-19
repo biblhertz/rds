@@ -3,7 +3,7 @@ body {
     background-image: url('https://biblhertz.github.io/rds/rsc/BH_LOGO_EN_3C_P_ORIZ.png');
     background-repeat: no-repeat;
     background-position-x: 60px;
-    background-position-y: 60px;
+    background-position-y: 70px;
     background-size: 300px 67px;
   }
   .page {
@@ -32,6 +32,10 @@ body {
     border-top: white;
     margin-right: 3px;
     margin-left: 1px;
+  }
+  .navbar {
+  display: none;
+  visibility: hidden;
   }
 #start-page-tabpane-Local {
   box-shadow: none;
