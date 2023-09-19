@@ -149,7 +149,10 @@ p.match b:after {
   white-space: normal;
   text-align: left;
 }
-
+.page__header.page__header--no-image {
+  padding: 20px 24px;
+  margin-left: 360px;
+}
 .vis-item.vis-box.card {
   height: 140px;
   margin-top: 10px;
