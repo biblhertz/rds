@@ -130,6 +130,12 @@ div[data-flex-self] {
   margin: 12px;
   background-color: white;
 }
+.panel-default {
+  border: solid thin gray;
+  box-shadow: 0 0 10px gray;
+  margin: 12px;
+  background-color: white;
+}
 .panel-body {
   height: 240px;
   }
