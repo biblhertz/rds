@@ -1,246 +1,249 @@
 body {
-    background-color: rgb(245,245,245);
-    background-image: url('https://biblhertz.github.io/rds/rsc/BH_LOGO_EN_3C_P_ORIZ.png');
-    background-repeat: no-repeat;
-    background-position-x: 60px;
-    background-position-y: 70px;
-    background-size: 300px 67px;
-  }
-  .page {
-    padding-top: 20px;
-    margin-left: 2%;
-    margin-right: 2%;
-  }
-  .navbar-nav {
-    background-color: gray;
-    color: rgb(240,240,240)
-  }
-  .form-group {
-   visibility: hidden;
-   display: none;
-  }
-  h1 {
-    text-shadow: 0px 0px 6px rgba(0,0,0,0.25);
-    font-size: 4em;
-    color: #8E1C15; /* deepskyblue; */
-    font-weight: 500;
-    letter-spacing: 0.1em;
-    line-height: 1.5em;
-  }
-  .tab-pane {
-    /* box-shadow: 0px 0px 10px gray; */
-    border-top: white;
-    margin-right: 3px;
-    margin-left: 1px;
-  }
-  .navbar, .navbar-default {
-  display: none;
-  visibility: hidden;
-  }
+  background-color: rgb(245,245,245);
+  background-image: url('https://biblhertz.github.io/rds/rsc/BH_LOGO_EN_3C_P_ORIZ.png');
+  background-repeat: no-repeat;
+  background-position-x: 60px;
+  background-position-y: 70px;
+  background-size: 300px 67px;
+}
+.page {
+  padding-top: 20px;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+.navbar-nav {
+  background-color: gray;
+  color: rgb(240,240,240)
+}
+div.react-sigma, div.sigma-container {
+  height: 75%;
+}
+.form-group {
+ visibility: hidden;
+ display: none;
+}
+h1 {
+  text-shadow: 0px 0px 6px rgba(0,0,0,0.25);
+  font-size: 4em;
+  color: #8E1C15; /* deepskyblue; */
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  line-height: 1.5em;
+}
+.tab-pane {
+  /* box-shadow: 0px 0px 10px gray; */
+  border-top: white;
+  margin-right: 3px;
+  margin-left: 1px;
+}
+.navbar, .navbar-default {
+display: none;
+visibility: hidden;
+}
 #start-page-tabpane-Local {
-  box-shadow: none;
-  border: none;
+box-shadow: none;
+border: none;
 }
 .nav-tabs > .nav-link.active, .nav-tabs > .nav-link.active:focus, .nav-tabs > .nav-link.active:hover, .nav-tabs > .nav-link.hover {
 background-color: rgb(245,245,245);
-  border-top: solid thin white;
-  border-left: solid thin white; 
-  border-right: solid thin white;
-  border-bottom: none;
-  box-shadow: 0px -4px 10px 0px darkgray;
-  margin-bottom: 0px;
+border-top: solid thin white;
+border-left: solid thin white; 
+border-right: solid thin white;
+border-bottom: none;
+box-shadow: 0px -4px 10px 0px darkgray;
+margin-bottom: 0px;
 }
-  .DataTable--table>thead>tr>th {
-    background-color: transparent;
-  }
-  p.match b {
-    color: #dc8a4b;
-    font-weight: normal;
-  }
-
-  p.match b:after {
-    content: " ";
-  }
-
-  .searchinput {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-bottom: 15px;
-  }
-  .searchinput i {
-    position: relative;
-    left: 12px;
-  }
-  .searchinput .input {
-    flex: 1;
-    margin-left: -12px;
-    box-shadow: 0px 0px 2px #4a9eba;
-    border-color: #4a9eba;
-  }
-  .searchinput input {
-    padding-left: 28px;
-  }
-  .searchinput .form-group {
-    margin-bottom: 0;
-  }
-
-  .nav {
-    flex-direction: row;
-  }
-  .vis-item {
-    border-width: 0;
-    border-color: #8ec7e38a;
-    background-color: transparent;
-  }
-  .vis-item.vis-box {
-    border: solid thin gray;
-    box-shadow: 0 0 10px gray;
-    background-color: white;
-    padding: 5px;
-    width: 240px; /*experimental*/
-  }
-.SemanticTimeline--timeline {
-  position: relative;
-}
-  .vis-active {
-    box-shadow: none;
-  }
-  .vis-timeline {
-    border-top: thin solid white
-  }
-  .vis-background {
-    background-color: rgb(245,245,245);
-  }
-  .card .header {
-    height: 80px;
-    white-space: normal;
-    text-align: left;
-    }
-    .vis-item.vis-box.card {
-      height: 140px;
-      margin-top: 10px;
-    }
-  div[data-flex-self] {
-    border: solid thin gray;
-    box-shadow: 0 0 10px gray;
-    margin: 12px;
-    background-color: white;
-  }
-  .panel-body {
-    height: 240px;
-    }
-    ul.nav {
-    margin-right: 10%;
-    margin-left: 10%;
-    text-align: center;
-  }
-  .footer-text {
-    position: relative;
-    border: none;
-    height: 40px;
-    margin: 70px 20px 10px 20px;
-    width: 280px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    font-size: 14px;
-    text-align: center;
-    padding-left: 6px;
-    padding-right: 6px;
-    background-color: transparent;
-    }
-    .vis-item .vis-item-content {
-  white-space: wordwrap;
-}
-  .img-frame {
-    margin-top: 30px;
-  }
-  .img-inset, .floating {
-    max-height: 278px;
-    max-width: 278px;
-    object-fit: fill;
-    border: thin solid whitesmoke;
-    border-radius: 6px;
-/*    filter: grayscale(100%); */
-  }
-/*  div[data-flex-self]:hover .img-inset, div.card:hover img.floating {
-    filter: grayscale(0%);
-  }*/
-  div[data-flex-layout] {
+.DataTable--table>thead>tr>th {
   background-color: transparent;
 }
+p.match b {
+  color: #dc8a4b;
+  font-weight: normal;
+}
+
+p.match b:after {
+  content: " ";
+}
+
+.searchinput {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.searchinput i {
+  position: relative;
+  left: 12px;
+}
+.searchinput .input {
+  flex: 1;
+  margin-left: -12px;
+  box-shadow: 0px 0px 2px #4a9eba;
+  border-color: #4a9eba;
+}
+.searchinput input {
+  padding-left: 28px;
+}
+.searchinput .form-group {
+  margin-bottom: 0;
+}
+
+.nav {
+  flex-direction: row;
+}
+.vis-item {
+  border-width: 0;
+  border-color: #8ec7e38a;
+  background-color: transparent;
+}
+.vis-item.vis-box {
+  border: solid thin gray;
+  box-shadow: 0 0 10px gray;
+  background-color: white;
+  padding: 5px;
+  width: 240px; /*experimental*/
+}
+.SemanticTimeline--timeline {
+position: relative;
+}
+.vis-active {
+  box-shadow: none;
+}
+.vis-timeline {
+  border-top: thin solid white
+}
+.vis-background {
+  background-color: rgb(245,245,245);
+}
+.card .header {
+  height: 80px;
+  white-space: normal;
+  text-align: left;
+  }
+  .vis-item.vis-box.card {
+    height: 140px;
+    margin-top: 10px;
+  }
+div[data-flex-self] {
+  border: solid thin gray;
+  box-shadow: 0 0 10px gray;
+  margin: 12px;
+  background-color: white;
+}
+.panel-body {
+  height: 240px;
+  }
+  ul.nav {
+  margin-right: 10%;
+  margin-left: 10%;
+  text-align: center;
+}
+.footer-text {
+  position: relative;
+  border: none;
+  height: 40px;
+  margin: 70px 20px 10px 20px;
+  width: 280px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 14px;
+  text-align: center;
+  padding-left: 6px;
+  padding-right: 6px;
+  background-color: transparent;
+  }
+  .vis-item .vis-item-content {
+white-space: wordwrap;
+}
+.img-frame {
+  margin-top: 30px;
+}
+.img-inset, .floating {
+  max-height: 278px;
+  max-width: 278px;
+  object-fit: fill;
+  border: thin solid whitesmoke;
+  border-radius: 6px;
+/*    filter: grayscale(100%); */
+}
+/*  div[data-flex-self]:hover .img-inset, div.card:hover img.floating {
+  filter: grayscale(0%);
+}*/
+div[data-flex-layout] {
+background-color: transparent;
+}
 div[data-flex-layout*="rows"], [data-flex-layout*="columns"] {
-  /* background-color: lightgray; */
+/* background-color: lightgray; */
 }
 .justify-content-center {
-  background-color: whitesmoke;
+background-color: whitesmoke;
 }
 div[data-flex-layout*="rows"], div[data-flex-layout*="columns"] {
-  border-top: thin solid white;
-  padding: 6px;
-  /* box-shadow: 0px -5px 10px rgb(200,200,200);
-  margin-top: 10px; */
+border-top: thin solid white;
+padding: 6px;
+/* box-shadow: 0px -5px 10px rgb(200,200,200);
+margin-top: 10px; */
 }
 img.floating {
-  float: left;
-  padding-right: 10px;
-      width: 60px;
-      height:60px;
-      cover: fill;
+float: left;
+padding-right: 10px;
+    width: 60px;
+    height:60px;
+    cover: fill;
 }
 .timespan {
-  text-align: left;
-  font-weight: 500;
+text-align: left;
+font-weight: 500;
 }
-  .card {
-    border: none;
-    font-size: 95%;
-    font-weight: 600;
-  }
-  footer {
-    display: none;
-    visibility: hidden;
-  } 
-  .tab-pane {
-  padding-top: 0rem;
-  margin-bottom: 0;
-  padding-bottom: 20px
-}
- button.SemanticTimeline--fitButton, .btn-secondary:focus, .btn-secondary.focus {
-  background-color: white;
-  border: thin solid gray;
-    padding: 8px 8px 4px 8px;
-  position: fixed;
-  right: 3em;
-  top: 45%;
-  box-shadow: 0 0 6px gray;
-} 
-.fa-expand::before {
-  content: "▲ SCROLL ▼";  /*"\F065";*/
-  color: #8E1B15;
+.card {
+  border: none;
+  font-size: 95%;
   font-weight: 600;
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-div:has(div.vis-active) .fa-expand::before {
-  content: "◀ ZOOM ▶";
-  color: #8E1B15;
-  font-weight: 600;
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-.navbar-brand {
-  display: none;
-}
-.navbar-name:after {
-  content: "Biblioteca Hertziana - Max Planck Institute for Art History";
-  color: whitesmoke;
-  font-size: 1.5rem;
-  }
-  .navbar, .navbar-default, .navbar-inverse, .metaphacts-header-navbar.bg-primary {
-  background-color: transparent!important;
+footer {
   display: none;
   visibility: hidden;
-  position: absolute; /*important, who knows why ...*/
-  }
-  .metaphacts-header-navbar.navbar.navbar-logo-name {
-  display: none;  /*nuclear option*/
-  }
+} 
+.tab-pane {
+padding-top: 0rem;
+margin-bottom: 0;
+padding-bottom: 20px
+}
+button.SemanticTimeline--fitButton, .btn-secondary:focus, .btn-secondary.focus {
+background-color: white;
+border: thin solid gray;
+  padding: 8px 8px 4px 8px;
+position: fixed;
+right: 3em;
+top: 45%;
+box-shadow: 0 0 6px gray;
+} 
+.fa-expand::before {
+content: "▲ SCROLL ▼";  /*"\F065";*/
+color: #8E1B15;
+font-weight: 600;
+font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+div:has(div.vis-active) .fa-expand::before {
+content: "◀ ZOOM ▶";
+color: #8E1B15;
+font-weight: 600;
+font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.navbar-brand {
+display: none;
+}
+.navbar-name:after {
+content: "Biblioteca Hertziana - Max Planck Institute for Art History";
+color: whitesmoke;
+font-size: 1.5rem;
+}
+.navbar, .navbar-default, .navbar-inverse, .metaphacts-header-navbar.bg-primary {
+background-color: transparent!important;
+display: none;
+visibility: hidden;
+position: absolute; /*important, who knows why ...*/
+}
+.metaphacts-header-navbar.navbar.navbar-logo-name {
+display: none;  /*nuclear option*/
+}
