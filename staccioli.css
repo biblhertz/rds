@@ -179,6 +179,14 @@ div[data-flex-self] {
 }
 .panel-body {
   height: 240px;
+  text-align: center;
+}
+.panel-body img {
+  max-height: 278px;
+  max-width: 278px;
+  object-fit: fill;
+  border: thin solid whitesmoke;
+  border-radius: 6px;
 }
 
 ul.nav {
