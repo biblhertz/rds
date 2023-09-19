@@ -157,7 +157,7 @@ background-color: rgb(245,245,245);
     filter: grayscale(0%);
   }*/
   div[data-flex-layout] {
-  background-color: whitesmoke;
+  background-color: transparent;
 }
 div[data-flex-layout*="rows"], [data-flex-layout*="columns"] {
   /* background-color: lightgray; */
