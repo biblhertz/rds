@@ -227,6 +227,8 @@ div:has(div.vis-active) .fa-expand::before {
   }
   .navbar, .navbar-default, .navbar-inverse, .metaphacts-header-navbar.bg-primary {
   background-color: transparent!important;
+  display: none;
+  visibility: hidden;
   }
   .metaphacts-header-navbar.navbar.navbar-logo-name {
   display: none;  /*nuclear option*/
