@@ -168,7 +168,10 @@ div[data-flex-self] {
   margin: 12px;
   background-color: white;
 }
-
+.panel-default > .panel-heading {
+  color: var(--color-dark,#1d0a6e);
+  background-color: transparent;
+}
 .panel-body {
   height: 240px;
 }
