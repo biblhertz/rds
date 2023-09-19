@@ -30,7 +30,7 @@ body {
     line-height: 1.5em;
   }
   .tab-pane {
-    box-shadow: 0px 0px 10px gray;
+    /* box-shadow: 0px 0px 10px gray; */
     border-top: white;
     margin-right: 3px;
     margin-left: 1px;
