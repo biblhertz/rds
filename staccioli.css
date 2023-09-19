@@ -1,7 +1,5 @@
 body {
     background-color: rgb(245,245,245);
-  }
-  #start-page-pane-Local {
     background-image: url('https://biblhertz.github.io/rds/rsc/BH_LOGO_EN_3C_P_ORIZ.png');
     background-repeat: no-repeat;
     background-position-x: 60px;
@@ -228,7 +226,7 @@ div:has(div.vis-active) .fa-expand::before {
   font-size: 1.5rem;
   }
   .navbar, .navbar-default, .navbar-inverse, .metaphacts-header-navbar.bg-primary {
-  background-color: rgb(245,245,245)!important;
+  background-color: transparent!important;
   }
   .metaphacts-header-navbar.navbar.navbar-logo-name {
   display: none;  /*nuclear option*/
