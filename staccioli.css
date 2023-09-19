@@ -126,6 +126,11 @@ background-color: rgb(245,245,245);
   .panel-body {
     height: 240px;
     }
+    ul.nav {
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: center;
+  }
   .footer-text {
     position: relative;
     border: none;
