@@ -195,7 +195,7 @@ div[data-flex-self] {
   margin: 12px;
   background-color: white;
 }
-panel-footer .targets {
+.panel-footer .targets {
   border: none;
   background-color: transparent;
   padding: 0px 10px 10px 10px;
