@@ -26,12 +26,13 @@ body {
 }
 .D3Tree--root .node-cell > * {
   background-color: transparent;
-  width: 200px!important;
+  max-width: 300px!important;
 }
 .D3Tree--root .node-text {
   background-color: transparent;
   white-space:  nowrap;
-  width: 200px!important;
+  width: 400px!important;
+  text-overflow: ellipsis;
 }
 /*from initial hard coded config*/
 /*start*/
