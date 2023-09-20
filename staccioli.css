@@ -198,7 +198,7 @@ div[data-flex-self] {
 panel-footer {
   border: none;
   background-color: transparent;
-
+  padding: 0px 10px 10px 10px;
 }
 .panel-default {
   border: solid thin gray;
