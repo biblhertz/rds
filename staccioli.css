@@ -46,8 +46,6 @@ div.sigma-container {
   height: 99%;
   align-content: stretch;
   display: flex;
-
-  width: 48%;   /*kew*/
 }
 
 div.react-sigma {
