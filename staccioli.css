@@ -16,7 +16,14 @@ body {
   list-style: none; */
   height: var(--breadcrumb-height,34px);
 }
-
+.D3Tree--root .node-cell > * {
+  background-color: transparent;
+  width: 200px!important;
+}
+.D3Tree--root .node-text {
+  white-space:  nowrap;
+  width: 200px!important;
+}
 /*from initial hard coded config*/
 /*start*/
 .panel__uri {
