@@ -43,7 +43,9 @@ body {
 
 div.react-sigma,
 div.sigma-container {
-  height: 75%;
+  height: 99%;
+  align-content: stretch;
+  display: flex;
 }
 
 .form-group {
@@ -206,7 +208,7 @@ div[data-flex-self] {
 }
 
 .grid-demo .panel-body a {
-  display: block
+  display: block;
 }
 
 .panel-body {
