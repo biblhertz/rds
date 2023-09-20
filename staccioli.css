@@ -194,14 +194,14 @@ div[data-flex-self] {
 panel-footer {
   border: none;
   background-color: transparent;
-  
+
 }
 .panel-default {
   border: solid thin gray;
   box-shadow: 0 0 10px gray;
   margin: 12px;
   background-color: white;
-  height: 380px;
+  height: 390px;
   width: 320px;
 }
 
