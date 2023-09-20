@@ -63,7 +63,7 @@ body {
 
 div.react-sigma,
 div.sigma-container {
-  height: 95%;
+  height: 90%!important;
   align-content: stretch;
   display: flex;
 }
@@ -73,6 +73,7 @@ div.react-sigma {
   border: solid thin gray;
   box-shadow: inset 0 0 10px gray; 
   border-radius: 6px; 
+  margin-top: 40px;
 }
 
 .form-group {
