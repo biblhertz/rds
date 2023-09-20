@@ -43,13 +43,15 @@ body {
 
 div.react-sigma,
 div.sigma-container {
-  height: 99%;
+  height: 95%;
   align-content: stretch;
   display: flex;
 }
 
 div.react-sigma {
   position: relative;
+  border: solid thin gray;
+  box-shadow: 0 0 10px gray;
 }
 
 .form-group {
@@ -195,7 +197,7 @@ div[data-flex-self] {
   margin: 12px;
   background-color: white;
 }
-panel-footer {
+.panel-footer {
   padding: 10px 15px;
   background-color: transparent;
   border: none;
