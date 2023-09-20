@@ -207,12 +207,14 @@ div[data-flex-self] {
   text-align: center;
 }
 
+/*
 .grid-demo .panel-body a {
   display: block;
 }
 .grid-demo .panel-body a img {
   margin-bottom: 10px;
 }
+*/
 .panel-body {
   height: 240px;
   text-align: center;
