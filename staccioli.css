@@ -7,6 +7,29 @@ body {
   background-size: 300px 67px;
 }
 
+/*from initial hard coded config*/
+/*start*/
+.panel__uri {
+  display: flex;
+  align-items: center;
+}
+.knowledge-pane__uri-copy-button {
+  flex: 0 0 auto;
+  opacity: 0;
+  visibility: visible;
+  transition: opacity 0.3s;
+}
+.panel__uri:hover .panel__uri-copy-button {
+  opacity: 1;
+  visibility: visible;
+}
+.panel__uri-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+/*end*/
+
 .page {
   padding-top: 20px;
   margin-left: 2%;
@@ -149,10 +172,12 @@ p.match b:after {
   white-space: normal;
   text-align: left;
 }
+
 .page__header.page__header--no-image {
   padding: 20px 24px;
   margin-left: 360px;
 }
+
 .vis-item.vis-box.card {
   height: 140px;
   margin-top: 10px;
@@ -173,18 +198,22 @@ div[data-flex-self] {
   height: 380px;
   width: 320px;
 }
-.panel-default > .panel-heading {
-  color: var(--color-dark,#1d0a6e);
+
+.panel-default>.panel-heading {
+  color: var(--color-dark, #1d0a6e);
   background-color: transparent;
   text-align: center;
 }
+
 .grid-demo .panel-body a {
   display: block
 }
+
 .panel-body {
   height: 240px;
   text-align: center;
 }
+
 .panel-body img {
   max-height: 278px;
   max-width: 278px;
