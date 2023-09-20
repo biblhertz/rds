@@ -8,8 +8,10 @@ body {
 }
 
 .base-breadcrumb, div.page-breadcrumb, ol.page-breadcrumb {
-  background-color: var(--color-breadcrumb-bg,#fff);
+  background-color: transparent;
   border: none;
+  box-shadow: none;
+  font-size: 15px;
   /* border-radius: 0;
   box-shadow: 0 0 6px #ccc; */
   /* text-transform: none;
