@@ -49,7 +49,7 @@ div.sigma-container {
 }
 
 div.react-sigma {
-  position: fixed; /*kew*/
+  position: relative;
 }
 
 .form-group {
