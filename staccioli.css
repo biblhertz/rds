@@ -251,7 +251,10 @@ div[data-flex-self] {
   background-color: transparent;
   text-align: center;
 }
-
+.component-page-toolbar__btn_copy_iri.btn, .component-page-toolbar__btn_show_diagram.btn, .component-page-toolbar__btn_show_graph.btn, .component-page-toolbar__btn_show_source.btn {
+  font-size: 15px;
+  text-decoration: none;
+}
 /*
 .grid-demo .panel-body a {
   display: block;
@@ -263,7 +266,7 @@ div[data-flex-self] {
 .panel-body {
   height: 240px;
   text-align: center;
-  padding: none;
+  padding: 0px;
 }
 
 .panel-body img {
