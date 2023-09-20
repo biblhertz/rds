@@ -7,6 +7,16 @@ body {
   background-size: 300px 67px;
 }
 
+.base-breadcrumb, div.page-breadcrumb, ol.page-breadcrumb {
+  background-color: var(--color-breadcrumb-bg,#fff);
+  border: none;
+  /* border-radius: 0;
+  box-shadow: 0 0 6px #ccc; */
+  /* text-transform: none;
+  list-style: none; */
+  height: var(--breadcrumb-height,34px);
+}
+
 /*from initial hard coded config*/
 /*start*/
 .panel__uri {
@@ -303,7 +313,6 @@ div[data-flex-layout*="rows"],
 
 div[data-flex-layout*="rows"],
 div[data-flex-layout*="columns"] {
-  border-top: thin solid white;
   padding: 6px;
   /* box-shadow: 0px -5px 10px rgb(200,200,200);
 margin-top: 10px; */
