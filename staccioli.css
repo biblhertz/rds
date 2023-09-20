@@ -51,7 +51,8 @@ div.sigma-container {
 div.react-sigma {
   position: relative;
   border: solid thin gray;
-  box-shadow: 0 0 10px gray;  
+  box-shadow: 0 0 10px gray; 
+  border-radius: 6px; 
 }
 
 .form-group {
