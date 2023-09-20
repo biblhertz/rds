@@ -176,6 +176,10 @@ div[data-flex-self] {
 .panel-default > .panel-heading {
   color: var(--color-dark,#1d0a6e);
   background-color: transparent;
+  text-align: center;
+}
+.grid-demo .panel-body a {
+  display: block
 }
 .panel-body {
   height: 240px;
