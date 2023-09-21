@@ -6,6 +6,7 @@ body {
   background-position-y: 70px;
   background-size: 300px 67px;
 }
+
 /*experiment flex-image pages on intro*/
 div[data-flex-layout] div.grid-demo a img {
   border: solid thin gray;
@@ -15,23 +16,30 @@ div[data-flex-layout] div.grid-demo a img {
   padding: 12px;
   border-radius: 6px;
 }
+
 .page__header-navtabs {
   margin-top: 82px;
 }
+
 .page__header-body {
   float: none;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  position:absolute;
+  position: absolute;
   top: 50px;
 }
+
 .page__header-thumbnail {
   display: none;
   visibility: hidden;
+}
+
 /*end experiment*/
 
-.base-breadcrumb, div.page-breadcrumb, ol.page-breadcrumb {
+.base-breadcrumb,
+div.page-breadcrumb,
+ol.page-breadcrumb {
   background-color: transparent;
   border: none;
   box-shadow: none;
@@ -41,45 +49,53 @@ div[data-flex-layout] div.grid-demo a img {
   box-shadow: 0 0 6px #ccc; */
   /* text-transform: none;
   list-style: none; */
-  height: var(--breadcrumb-height,34px);
-  position: relative!important;
+  height: var(--breadcrumb-height, 34px);
+  position: relative !important;
 }
+
 .component-page-toolbar .btn-group {
   font-size: 15px;
   margin-top: 16px;
   text-decoration: none;
 }
-.D3Tree--root .node-cell > * {
+
+.D3Tree--root .node-cell>* {
   background-color: transparent;
-  max-width: 300px!important;
+  max-width: 300px !important;
 }
+
 .D3Tree--root .node-text {
   background-color: transparent;
-  white-space:  nowrap;
-  width: 400px!important;
+  white-space: nowrap;
+  width: 400px !important;
   text-overflow: ellipsis;
 }
+
 /*from initial hard coded config*/
 /*start*/
 .panel__uri {
   display: flex;
   align-items: center;
 }
+
 .knowledge-pane__uri-copy-button {
   flex: 0 0 auto;
   opacity: 0;
   visibility: visible;
   transition: opacity 0.3s;
 }
+
 .panel__uri:hover .panel__uri-copy-button {
   opacity: 1;
   visibility: visible;
 }
+
 .panel__uri-text {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
+
 /*end*/
 
 .page {
@@ -95,7 +111,7 @@ div[data-flex-layout] div.grid-demo a img {
 
 div.react-sigma,
 div.sigma-container {
-  height: 90%!important;
+  height: 90% !important;
   align-content: stretch;
   display: flex;
 }
@@ -103,8 +119,8 @@ div.sigma-container {
 div.react-sigma {
   position: relative;
   border: solid thin gray;
-  box-shadow: inset 0 0 10px gray; 
-  border-radius: 6px; 
+  box-shadow: inset 0 0 10px gray;
+  border-radius: 6px;
   margin-top: 40px;
 }
 
@@ -251,17 +267,20 @@ div[data-flex-self] {
   margin: 12px;
   background-color: white;
 }
+
 .panel-footer {
   padding: 10px 15px;
   background-color: transparent;
   border: none;
 }
+
 .targets {
   border: none;
   background-color: transparent;
   padding: 0px 10px 10px 10px;
   margin: none;
 }
+
 .panel-default {
   border: solid thin gray;
   box-shadow: 0 0 10px gray;
@@ -276,10 +295,15 @@ div[data-flex-self] {
   background-color: transparent;
   text-align: center;
 }
-.component-page-toolbar__btn_copy_iri.btn, .component-page-toolbar__btn_show_diagram.btn, .component-page-toolbar__btn_show_graph.btn, .component-page-toolbar__btn_show_source.btn {
+
+.component-page-toolbar__btn_copy_iri.btn,
+.component-page-toolbar__btn_show_diagram.btn,
+.component-page-toolbar__btn_show_graph.btn,
+.component-page-toolbar__btn_show_source.btn {
   font-size: 15px;
   text-decoration: none;
 }
+
 /*
 .grid-demo .panel-body a {
   display: block;
