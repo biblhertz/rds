@@ -26,6 +26,9 @@ div[data-flex-layout] div.grid-demo a img {
   position:absolute;
   top: 50px;
 }
+.page__header-thumbnail {
+  display: none;
+  visibility: hidden;
 /*end experiment*/
 
 .base-breadcrumb, div.page-breadcrumb, ol.page-breadcrumb {
@@ -39,6 +42,7 @@ div[data-flex-layout] div.grid-demo a img {
   /* text-transform: none;
   list-style: none; */
   height: var(--breadcrumb-height,34px);
+  position: relative!important;
 }
 .component-page-toolbar .btn-group {
   font-size: 15px;
