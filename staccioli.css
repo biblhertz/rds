@@ -133,7 +133,7 @@ div.react-sigma {
   display: none;
 }
 
-h1 {
+div[data-flex-layout] h1 {
   text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25);
   font-size: 4em;
   color: #8E1C15;
@@ -142,7 +142,10 @@ h1 {
   letter-spacing: 0.1em;
   line-height: 1.5em;
 }
-
+div#tabs h1 {
+  display: none;
+  visibility: hidden;
+}
 .tab-pane {
   /* box-shadow: 0px 0px 10px gray; */
   border-top: white;
