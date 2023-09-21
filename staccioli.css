@@ -9,8 +9,8 @@ body {
 
 /*experiment flex-image pages on intro*/
 div[data-flex-layout] div.grid-demo a img {
-  border: solid thin gray;
-  box-shadow: 0 0 10px gray;
+  border: solid thin grey;
+  box-shadow: 0 0 10px grey;
   margin: 6px;
   background-color: white;
   padding: 12px;
@@ -59,7 +59,7 @@ ol.page-breadcrumb {
   text-decoration: none;
 }
 
-.D3Tree--root .node-cell>* {
+.D3Tree--root .node-cell > * {
   background-color: transparent;
   max-width: 300px !important;
 }
@@ -105,7 +105,7 @@ ol.page-breadcrumb {
 }
 
 .navbar-nav {
-  background-color: gray;
+  background-color: grey;
   color: rgb(240, 240, 240)
 }
 
@@ -157,10 +157,10 @@ h1 {
   border: none;
 }
 
-.nav-tabs>.nav-link.active,
-.nav-tabs>.nav-link.active:focus,
-.nav-tabs>.nav-link.active:hover,
-.nav-tabs>.nav-link.hover {
+.nav-tabs > .nav-link.active,
+.nav-tabs > .nav-link.active:focus,
+.nav-tabs > .nav-link.active:hover,
+.nav-tabs > .nav-link.hover {
   background-color: rgb(245, 245, 245);
   border-top: solid thin white;
   border-left: solid thin white;
@@ -170,7 +170,7 @@ h1 {
   margin-bottom: 0px;
 }
 
-.DataTable--table>thead>tr>th {
+.DataTable--table > thead > tr > th {
   background-color: transparent;
 }
 
@@ -221,8 +221,8 @@ p.match b:after {
 }
 
 .vis-item.vis-box {
-  border: solid thin gray;
-  box-shadow: 0 0 10px gray;
+  border: solid thin grey;
+  box-shadow: 0 0 10px grey;
   background-color: white;
   padding: 5px;
   width: 240px;
@@ -262,8 +262,8 @@ p.match b:after {
 }
 
 div[data-flex-self] {
-  border: solid thin gray;
-  box-shadow: 0 0 10px gray;
+  border: solid thin grey;
+  box-shadow: 0 0 10px grey;
   margin: 12px;
   background-color: white;
 }
@@ -282,15 +282,15 @@ div[data-flex-self] {
 }
 
 .panel-default {
-  border: solid thin gray;
-  box-shadow: 0 0 10px gray;
+  border: solid thin grey;
+  box-shadow: 0 0 10px grey;
   margin: 12px;
   background-color: white;
   height: 390px;
   width: 320px;
 }
 
-.panel-default>.panel-heading {
+.panel-default > .panel-heading {
   color: var(--color-dark, #1d0a6e);
   background-color: transparent;
   text-align: center;
@@ -306,10 +306,10 @@ div[data-flex-self] {
 
 /*
 .grid-demo .panel-body a {
-  display: block;
+display: block;
 }
 .grid-demo .panel-body a img {
-  margin-bottom: 10px;
+margin-bottom: 10px;
 }
 */
 .panel-body {
@@ -366,7 +366,7 @@ ul.nav {
 }
 
 /*  div[data-flex-self]:hover .img-inset, div.card:hover img.floating {
-  filter: grayscale(0%);
+filter: grayscale(0%);
 }*/
 div[data-flex-layout] {
   background-color: transparent;
@@ -422,12 +422,12 @@ button.SemanticTimeline--fitButton,
 .btn-secondary:focus,
 .btn-secondary.focus {
   background-color: white;
-  border: thin solid gray;
+  border: thin solid grey;
   padding: 8px 8px 4px 8px;
   position: fixed;
   right: 3em;
   top: 45%;
-  box-shadow: 0 0 6px gray;
+  box-shadow: 0 0 6px grey;
 }
 
 .fa-expand::before {
