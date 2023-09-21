@@ -34,7 +34,9 @@ div[data-flex-layout] div.grid-demo a img {
   display: none;
   visibility: hidden;
 }
-
+div #mp-popover {
+  height: 40px;
+}
 /*end experiment*/
 
 .base-breadcrumb,
