@@ -16,7 +16,9 @@ div[data-flex-layout] div.grid-demo a img {
   padding: 12px;
   border-radius: 6px;
 }
-
+.component-page-toolbar {
+  position: absolute;
+}
 .page__header-navtabs {
   margin-top: 82px;
 }
