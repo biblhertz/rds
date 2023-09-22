@@ -8,14 +8,14 @@ body {
 }
 
 /*experiment flex-image pages on intro*/
-div[data-flex-layout] div.grid-demo a img {
+/*div[data-flex-layout] div.grid-demo a img {
   border: solid thin grey;
   box-shadow: 0 0 10px grey;
   margin: 6px;
   background-color: white;
   padding: 12px;
   border-radius: 6px;
-}
+}*/
 .component-page-toolbar {
   position: absolute;
 }
