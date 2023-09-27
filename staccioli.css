@@ -496,7 +496,7 @@ div:has(div.vis-active) .fa-expand::before {
   body {
   background-image: none;
   }
-  div#startpage {
+  div#start-page {
     display: none
   }
 }
