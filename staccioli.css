@@ -493,4 +493,8 @@ div:has(div.vis-active) .fa-expand::before {
   background-size: 175px 102px;
   }
 }
-
+@media only screen and ( max-width: 1670px ){
+  body {
+  background-image: none;
+  }
+}
