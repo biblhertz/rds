@@ -483,7 +483,7 @@ div:has(div.vis-active) .fa-expand::before {
   display: none;
   /*nuclear option*/
 }
-@media only screen and ( max-width: 2250px ){
+@media only screen and ( max-width: 2250px ) and ( min-width: 1671px ){
   body {
   background-image: url('https://biblhertz.github.io/rds/rsc/BH_LOGO_EN_3C_P_VERT.png');
   background-repeat: no-repeat;
