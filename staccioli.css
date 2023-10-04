@@ -40,7 +40,10 @@ div#gnam81 h4 {
 
 div#volterra72 div.col-md-6:has(h4),
 div#biennale78 div.col-md-6:has(h4),
-div#gnam81 div.col-md-6:has(h4),{
+div#gnam81 div.col-md-6:has(h4),
+div#volterra72 div.col-sm-6:has(h4),
+div#biennale78 div.col-sm-6:has(h4),
+div#gnam81 div.col-sm-6:has(h4) {
   display: none;
 }
 div#volterra72 [data-flex-layout*=row][data-flex-layout*=-spread],
@@ -547,7 +550,11 @@ div:has(div.vis-active) .fa-expand::before {
 @media only screen ( min-width: 992px ) {
     div#volterra72 .col-md-6,
     div#venezia78 .col-md-6,
-    div#gnam81 .col-md-6
+    div#gnam81 .col-md-6,
+    div#volterra72 .col-sm-6,
+    div#venezia78 .col-sm-6,
+    div#gnam81 .col-sm-6
+
     {
         width: 100%;
     }
