@@ -12,21 +12,12 @@ div#volterra72, div#biennale78, div#gnam81 {
   padding-top: 1em;
 }
 
-@media (min-width: 992px) { 
+@media (min-width: 992px)
 div#volterra72 .col-md-6,
 div#venezia78 .col-md-6,
-div#gnam81 .col-md-6,
-  {
+div#gnam81 .col-md-6
+{
     width: 100%;
-  }
-}
-@media (min-width: 768px) { 
-div#volterra72 .col-md-6,
-div#venezia78 .col-md-6,
-div#gnam81 .col-md-6,
-  {
-    width: 100%;
-  }
 }
 
 div#volterra72 h3, div#biennale78 h3, div#gnam81 h3 {
