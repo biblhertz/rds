@@ -20,7 +20,12 @@ div#gnam81 div.col-md-6,{
 }
 
 div#volterra72 [data-flex-layout*=column][data-flex-layout*=spread-], 
-div#volterra72 [data-flex-layout*=row][data-flex-layout*=-spread] {
+div#volterra72 [data-flex-layout*=row][data-flex-layout*=-spread],
+div#venezia78 [data-flex-layout*=column][data-flex-layout*=spread-], 
+div#venezia78 [data-flex-layout*=row][data-flex-layout*=-spread],
+div#gnam81 [data-flex-layout*=column][data-flex-layout*=spread-], 
+div#gnam81 [data-flex-layout*=row][data-flex-layout*=-spread],
+{
     justify-content: center;
 }
 div#volterra72 h3,
@@ -30,7 +35,7 @@ div#gnam81 h3 {
     font-size: 2em;
   font-weight: bolder;
     color: #8E1C15;
-  text-align: left;
+  text-align: center;
   padding-top: 2em;
 }
 div#volterra72 h4,
@@ -552,12 +557,12 @@ div:has(div.vis-active) .fa-expand::before {
 }
 
 @media only screen ( min-width: 992px ) {
-    div#volterra72 .col-md-6,
-    div#venezia78 .col-md-6,
-    div#gnam81 .col-md-6,
-    div#volterra72 .col-sm-6,
-    div#venezia78 .col-sm-6,
-    div#gnam81 .col-sm-6
+    #volterra72 .col-md-6,
+    #venezia78 .col-md-6,
+    #gnam81 .col-md-6,
+    #volterra72 .col-sm-6,
+    #venezia78 .col-sm-6,
+    #gnam81 .col-sm-6
 
     {
         width: 100%;
