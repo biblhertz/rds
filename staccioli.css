@@ -19,6 +19,10 @@ div#gnam81 div.col-md-6,{
     width: 100%;
 }
 
+div#volterra72 [data-flex-layout*=column][data-flex-layout*=spread-], 
+div#volterra72 [data-flex-layout*=row][data-flex-layout*=-spread] {
+    justify-content: center;
+}
 div#volterra72 h3,
 div#biennale78 h3,
 div#gnam81 h3 {
