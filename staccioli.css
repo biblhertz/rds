@@ -6,6 +6,11 @@ body {
   background-position-y: 70px;
   background-size: 300px 67px;
 }
+div#volterra72, div#biennale78, div#gnam81 {
+  border-top: 1px solid var(--input-border-color,rgba(29,9,110,.13));
+  margin-top: 2em;
+  padding-top: 1em;
+}
 
 /*experiment flex-image pages on intro*/
 /*div[data-flex-layout] div.grid-demo a img {
