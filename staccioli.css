@@ -1,10 +1,4 @@
-@media (min-width: 992px)
-div#volterra72 .col-md-6,
-div#venezia78 .col-md-6,
-div#gnam81 .col-md-6
-{
-    width: 100%;
-}
+
 body {
   background-color: rgb(245, 245, 245);
   background-image: url('https://biblhertz.github.io/rds/rsc/BH_LOGO_EN_3C_P_ORIZ.png');
@@ -545,3 +539,11 @@ div:has(div.vis-active) .fa-expand::before {
   }
 }
 
+@media only screen ( min-width: 992px ) {
+    div#volterra72 .col-md-6,
+    div#venezia78 .col-md-6,
+    div#gnam81 .col-md-6
+    {
+        width: 100%;
+    }
+}
