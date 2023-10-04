@@ -7,7 +7,9 @@ body {
   background-position-y: 70px;
   background-size: 300px 67px;
 }
-div#volterra72, div#biennale78, div#gnam81 {
+div#volterra72,
+div#biennale78,
+div#gnam81 {
   border-top: 1px solid var(--input-border-color,rgba(29,9,110,.13));
   margin-top: 2em;
   padding-top: 1em;
@@ -15,7 +17,11 @@ div#volterra72, div#biennale78, div#gnam81 {
 
 div#volterra72 div.col-md-6,
 div#biennale78 div.col-md-6,
-div#gnam81 div.col-md-6,{
+div#gnam81 div.col-md-6,
+div#volterra72 div.col-sm-6,
+div#biennale78 div.col-sm-6,
+div#gnam81 div.col-sm-6
+{
     width: 100%;
 }
 
@@ -24,7 +30,7 @@ div#volterra72 [data-flex-layout*=row][data-flex-layout*=-spread],
 div#venezia78 [data-flex-layout*=column][data-flex-layout*=spread-], 
 div#venezia78 [data-flex-layout*=row][data-flex-layout*=-spread],
 div#gnam81 [data-flex-layout*=column][data-flex-layout*=spread-], 
-div#gnam81 [data-flex-layout*=row][data-flex-layout*=-spread],
+div#gnam81 [data-flex-layout*=row][data-flex-layout*=-spread]
 {
     justify-content: center;
 }
