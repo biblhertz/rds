@@ -25,7 +25,9 @@ div#volterra72 h4, div#biennale78 h4, div#gnam81 h4 {
     color: #8E1C15;
   text-align: center
 }
-
+.col-md-6:has(h4) {
+  visibility: none;
+}
 /*experiment flex-image pages on intro*/
 /*div[data-flex-layout] div.grid-demo a img {
   border: solid thin grey;
