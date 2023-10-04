@@ -15,6 +15,15 @@ div#gnam81 {
   padding-top: 1em;
 }
 
+#intro li {
+  text-align: center;
+  list-style-type: none;
+  text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25);
+  font-size: 1em;
+  font-weight: bolder;
+  color: #8E1C15;
+}
+
 div#volterra72 div.col-md-6,
 div#biennale78 div.col-md-6,
 div#gnam81 div.col-md-6,
