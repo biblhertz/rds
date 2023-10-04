@@ -26,7 +26,8 @@ div#volterra72 h4, div#biennale78 h4, div#gnam81 h4 {
   text-align: center
 }
 div.col-md-6:has(h4) {
-  visibility: none;
+  visibility: hidden;
+  display: none;
 }
 /*experiment flex-image pages on intro*/
 /*div[data-flex-layout] div.grid-demo a img {
