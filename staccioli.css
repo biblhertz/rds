@@ -1,3 +1,10 @@
+@media (min-width: 992px)
+div#volterra72 .col-md-6,
+div#venezia78 .col-md-6,
+div#gnam81 .col-md-6
+{
+    width: 100%;
+}
 body {
   background-color: rgb(245, 245, 245);
   background-image: url('https://biblhertz.github.io/rds/rsc/BH_LOGO_EN_3C_P_ORIZ.png');
@@ -12,11 +19,9 @@ div#volterra72, div#biennale78, div#gnam81 {
   padding-top: 1em;
 }
 
-@media (min-width: 992px)
-div#volterra72 .col-md-6,
-div#venezia78 .col-md-6,
-div#gnam81 .col-md-6
-{
+div#volterra72 div.col-md-6,
+div#biennale78 div.col-md-6,
+div#gnam81 div.col-md-6,{
     width: 100%;
 }
 
@@ -33,11 +38,6 @@ div#volterra72 h4, div#biennale78 h4, div#gnam81 h4 {
     font-size: 1em;
     color: #8E1C15;
   text-align: center;
-}
-div#volterra72 div.col-md-6,
-div#biennale78 div.col-md-6,
-div#gnam81 div.col-md-6,{
-    width: 100%;
 }
 div#volterra72 div.col-md-6:has(h4),
 div#biennale78 div.col-md-6:has(h4),
