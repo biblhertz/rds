@@ -43,8 +43,7 @@ div#gnam81 div.col-md-6,{
 div#volterra72 div.col-md-6:has(h4),
 div#biennale78 div.col-md-6:has(h4),
 div#gnam81 div.col-md-6:has(h4),{
-  visibility: hidden;
-  display: none;
+  display: flex;
 }
 div#volterra72 [data-flex-layout*=row][data-flex-layout*=-spread],
 div#biennale78 [data-flex-layout*=row][data-flex-layout*=-spread],
