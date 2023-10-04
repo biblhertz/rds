@@ -29,6 +29,14 @@ div.col-md-6:has(h4) {
   visibility: hidden;
   display: none;
 }
+
+div#volterra72 [data-flex-layout*=row][data-flex-layout*=-spread],
+div#biennale78 [data-flex-layout*=row][data-flex-layout*=-spread],
+div#gnam81 [data-flex-layout*=row][data-flex-layout*=-spread],
+{
+    justify-content: start;
+}
+
 /*experiment flex-image pages on intro*/
 /*div[data-flex-layout] div.grid-demo a img {
   border: solid thin grey;
