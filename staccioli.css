@@ -45,6 +45,9 @@ div#gnam81 {
   font-weight: bold;
   color: #8E1C15;
 }
+#graph div {
+  margin-bottom: 2em;
+}
 
 div#volterra72 div.col-md-6,
 div#biennale78 div.col-md-6,
