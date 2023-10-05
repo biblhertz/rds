@@ -80,7 +80,9 @@ div#gnam81 [data-flex-layout*=row][data-flex-layout*=-spread]
 {
     justify-content: center;
 }
-
+hr {
+  border-bottom: 1px solid var(--input-border-color,rgba(29,9,110,.13));
+}
 /*
 div#volterra72 h4,
 div#biennale78 h4,
