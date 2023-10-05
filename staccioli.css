@@ -479,11 +479,6 @@ div[data-flex-layout] {
   background-color: transparent;
 }
 
-div[data-flex-layout*="rows"],
-[data-flex-layout*="columns"] {
-  /* background-color: lightgray; */
-}
-
 .justify-content-center {
   background-color: whitesmoke;
 }
