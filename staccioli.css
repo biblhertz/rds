@@ -27,8 +27,11 @@ div#gnam81 {
   margin-right: 10%;
 }
 
-.dyncols {
+.dyn-cols {
   columns: 3
+}
+#dev, #graphs {
+  margin-bottom: 2em
 }
 
 div#volterra72 div.col-md-6,
