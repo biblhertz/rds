@@ -22,6 +22,14 @@ div#gnam81 {
   font-weight: bolder;
   color: #8E1C15;
 }
+.based {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.dyncols {
+  columns: 3
+}
 
 div#volterra72 div.col-md-6,
 div#biennale78 div.col-md-6,
