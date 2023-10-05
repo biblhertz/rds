@@ -34,7 +34,14 @@ div#gnam81 {
   column-rule: 1px inset lightgray;
 }
 #dev, #graphs {
-  margin-bottom: 2em
+  margin-bottom: 3em
+}
+#dev h3, #graphs h3 {
+  margin-bottom: 2em;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #8E1C15;
 }
 
 div#volterra72 div.col-md-6,
