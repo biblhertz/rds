@@ -26,6 +26,10 @@ div#gnam81 {
   column-width: 200px;
   column-rule: 1px inset lightgray;
 }
+.dyn-cols p {
+  color: lightslategrey;
+}
+
 #dev, #graphs {
   margin-top: 2em;
   margin-bottom: 2em;
