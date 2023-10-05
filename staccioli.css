@@ -10,14 +10,14 @@ body {
 div#volterra72,
 div#biennale78,
 div#gnam81 {
-  border-top: 1px solid var(--input-border-color,rgba(29,9,110,.13));
-  margin-top: 2em;
+  /*border-bottom: 1px solid var(--input-border-color,rgba(29,9,110,.13)); */
+  margin-bottom: 1em;
   padding-top: 1em;
 }
 
 .based {
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 .sig {
   text-align: right;
@@ -27,15 +27,19 @@ div#gnam81 {
   column-count: 3;
   column-gap: 2em;
   column-width: 200px;
-  column-rule: 1px inset lightgray;
+  column-rule: 1px inset var(--input-border-color,rgba(29,9,110,.13));
 }
 .dyn-cols p {
-  color: lightslategrey;
+  color: darkslategray;
 }
 
 #dev, #graphs {
   margin-top: 2em;
   margin-bottom: 2em;
+}
+h2 {
+  margin: none;
+  padding: none;
 }
 h3 {
   margin-top: 1em;
