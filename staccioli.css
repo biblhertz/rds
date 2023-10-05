@@ -590,9 +590,7 @@ div:has(div.vis-active) .fa-expand::before {
     display: none
   }
 }
-#panels h2, #intro h2, #intro p {
-  display: none
-}
+
 @media only screen and ( min-width: 992px ) {
     #volterra72 .col-md-6,
     #venezia78 .col-md-6,
