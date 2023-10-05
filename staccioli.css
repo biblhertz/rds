@@ -33,6 +33,10 @@ div#gnam81 {
   color: darkslategray;
 }
 
+#intro, #panels {
+  margin-bottom: 3em
+}
+
 #dev, #graphs {
   margin-top: 2em;
   margin-bottom: 2em;
