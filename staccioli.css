@@ -29,7 +29,7 @@ div#gnam81 {
   column-width: 200px;
   column-rule: 1px inset var(--input-border-color,rgba(29,9,110,.13));
 }
-.dyn-cols p {
+.based p {
   color: darkslategray;
 }
 
