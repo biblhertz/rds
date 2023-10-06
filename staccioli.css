@@ -464,8 +464,8 @@ ul.nav {
 .footer-text {
   position: relative;
   border: none;
-  height: 40px;
-  margin: 70px 20px 10px 20px;
+  height: 60px;
+  margin: 60px 20px 30px 20px;
   width: 280px;
   overflow: hidden;
   text-overflow: ellipsis;
