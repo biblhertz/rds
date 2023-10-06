@@ -1,4 +1,5 @@
-
+@font-face { font-family: 'Merriweather Sans'; src: url('https://dlib.biblhertz.it/fonts/MerriweatherSans/MerriweatherSans-Regular.eot?') format('eot'), url('https://dlib.biblhertz.it/fonts/MerriweatherSans/MerriweatherSans-Regular.woff') format('woff'), url('https://dlib.biblhertz.it/fonts/MerriweatherSans/MerriweatherSans-Regular.ttf') format('truetype');}
+       
 body {
   background-color: rgb(245, 245, 245);
   background-image: url('https://biblhertz.github.io/rds/rsc/BH_LOGO_EN_3C_P_ORIZ.png');
@@ -7,6 +8,7 @@ body {
   background-position-y: 70px;
   background-size: 300px 67px;
   color: darkslategray;
+  font-family: "Merriweather Sans", "Helvetica", sans-serif;
 }
 
 div#volterra72,
