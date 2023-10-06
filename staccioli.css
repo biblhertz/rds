@@ -421,6 +421,7 @@ div[data-flex-self] {
   padding: 10px 15px;
   background-color: transparent;
   border: none;
+  font-size: 14px;
 }
 
 .targets {
@@ -443,6 +444,7 @@ div[data-flex-self] {
   color: var(--color-dark, #1d0a6e);
   background-color: transparent;
   text-align: center;
+  font-size: 14px;
 }
 
 .component-page-toolbar__btn_copy_iri.btn,
