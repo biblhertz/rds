@@ -37,6 +37,10 @@ div#gnam81 {
   column-width: 200px;
   column-rule: 1px inset var(--input-border-color,rgba(29,9,110,.13));
 }
+p {
+  font-size: 1.5em;
+  line-height: 1.5em;
+}
 .based p {
   color: darkslategray;
 }
