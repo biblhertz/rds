@@ -35,6 +35,7 @@ div#gnam81 {
   column-gap: 2em;
   column-width: 200px;
   column-rule: 1px inset var(--input-border-color,rgba(29,9,110,.13));
+  color: black;
 }
 p {
   font-size: 1.5em;
