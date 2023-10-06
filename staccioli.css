@@ -285,12 +285,11 @@ div#tabs h1 {
   visibility: hidden;
 }
 .center-note {
+  line-height: 1.5em;
   text-align: center;
-  font-size: 1.5em;
 }
 .center-note ul {
   line-height: 1.5em;
-  font-size: 1.5em;
 }
 
 
