@@ -211,6 +211,7 @@ ol.page-breadcrumb {
 .panel__uri {
   display: flex;
   align-items: center;
+  font-size: 1.5em;
 }
 
 .knowledge-pane__uri-copy-button {
