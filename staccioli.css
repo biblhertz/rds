@@ -6,7 +6,9 @@ body {
   background-position-x: 60px;
   background-position-y: 70px;
   background-size: 300px 67px;
+  color: darkslategray;
 }
+
 div#volterra72,
 div#biennale78,
 div#gnam81 {
