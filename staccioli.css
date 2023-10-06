@@ -41,7 +41,7 @@ p {
   line-height: 1.5em;
 }
 .based p {
-  color: darkslategray;
+  color: black;
 }
 
 #intro, #panels {
@@ -476,8 +476,8 @@ ul.nav {
 .footer-text {
   position: relative;
   border: none;
-  height: 60px;
-  margin: 60px 20px 30px 20px;
+  height: 70px;
+  margin: 60px 20px 20px 20px;
   width: 280px;
   overflow: hidden;
   text-overflow: ellipsis;
