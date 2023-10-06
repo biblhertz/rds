@@ -8,7 +8,7 @@ body {
   background-position-y: 70px;
   background-size: 300px 67px;
   color: darkslategray;
-  font-family: "Merriweather Sans", "Helvetica", sans-serif;
+  font-family: "Merriweather Sans", "Helvetica", sans-serif !important;
 }
 
 div#volterra72,
