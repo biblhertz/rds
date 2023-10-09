@@ -464,7 +464,7 @@ margin-bottom: 10px;
 }
 */
 .panel-body {
-  height: 240px;
+  height: 260px; /*was 240 in html*/
   text-align: center;
   padding: 0px;
 }
