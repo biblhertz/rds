@@ -425,6 +425,7 @@ p.match b:after {
 
 div[data-flex-self] {
   border: thin groove lightgrey;
+  border-radius: 4px;
 /*  box-shadow: 0 0 10px grey; */
   margin: 12px;
   background-color: white;
@@ -495,8 +496,7 @@ margin-bottom: 10px;
   max-height: 278px;
   max-width: 278px;
   object-fit: fill;
-  border: thin solid whitesmoke;
-  border-radius: 6px;
+  margin: 0px 6px;
 }
 
 ul.nav {
