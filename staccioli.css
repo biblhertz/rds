@@ -559,9 +559,8 @@ margin-top: 10px; */
 img.floating {
   float: left;
   padding-right: 10px;
-  width: 60px;
-  height: 60px;
-  cover: fill;
+  width: 70px;
+  height: 70px;
 }
 
 .timespan {
