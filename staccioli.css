@@ -382,8 +382,8 @@ p.match b:after {
 }
 
 .vis-item.vis-box {
-  border: solid thin grey;
-  box-shadow: 0 0 10px grey;
+  border: thin groove lightgrey;
+  /* box-shadow: 0 0 10px grey; */
   background-color: white;
   padding: 5px;
   width: 240px;
