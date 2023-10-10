@@ -422,7 +422,7 @@ p.match b:after {
 div[data-flex-self] {
   border: solid thin grey;
   box-shadow: 0 0 10px grey;
-  /* margin: 12px; */
+  margin: 8px;
   background-color: white;
 }
 
@@ -509,7 +509,7 @@ ul.nav {
   text-align: center;
   padding-left: 6px;
   padding-right: 6px;
-  background-color: rgba(245, 245, 245, 0.5);
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 .vis-item .vis-item-content {
@@ -517,7 +517,7 @@ ul.nav {
 }
 
 .img-frame {
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .img-inset,
