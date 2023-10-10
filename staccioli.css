@@ -414,10 +414,10 @@ p.match b:after {
   font-weight: 500;
 }
 /*panel in detailed vis:*/
-.grid-demo .panel-default {
+/* .grid-demo .panel-default {
   display: inline-table;
   margin-left: 360px;
-}
+} */
 .vis-item.vis-box.card {
   height: 140px;
   margin-top: 10px;
