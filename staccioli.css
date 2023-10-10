@@ -410,6 +410,8 @@ p.match b:after {
   height: 80px;
   white-space: normal;
   text-align: left;
+  font-size: 12px;
+  font-weight: 500;
 }
 
 .vis-item.vis-box.card {
@@ -556,8 +558,8 @@ img.floating {
 
 .timespan {
   text-align: left;
-  font-weight: 500;
-}
+  font-size: 12px;
+  font-weight: 500;}
 
 .card {
   border: none;
