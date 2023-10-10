@@ -424,8 +424,8 @@ p.match b:after {
 }
 
 div[data-flex-self] {
-  /* border: solid thin grey;
-  box-shadow: 0 0 10px grey; */
+  border: thin groove lightgrey;
+/*  box-shadow: 0 0 10px grey; */
   margin: 12px;
   background-color: white;
   /* background: rgb(221,221,221);
@@ -447,8 +447,8 @@ background: radial-gradient(circle, rgba(221,221,221,1) 13%, rgba(237,237,237,1)
 }
 
 .panel-default {
-  border: solid thin grey;
-  box-shadow: 0 0 10px grey;
+  border: thin groove lightgrey;
+  /* box-shadow: 0 0 10px grey; */
   margin: 12px;
   background-color: white;
   height: 390px;
