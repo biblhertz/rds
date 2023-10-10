@@ -589,25 +589,25 @@ button.SemanticTimeline--fitButton,
 .btn-secondary:focus,
 .btn-secondary.focus {
   background-color: white;
-  border: thin solid grey;
+  border: thin groove lightgrey;
   padding: 8px 8px 4px 8px;
   position: fixed;
-  right: 3em;
-  top: 45%;
-  box-shadow: 0 0 6px grey;
+  right: 5em;
+  top: 5em;
+  /* box-shadow: 0 0 6px grey; */
 }
 
 .fa-expand::before {
   content: "▲ SCROLL ▼";
   /*"\F065";*/
-  color: #8E1B15;
+  /* color: #8E1B15; */
   font-weight: 600;
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 div:has(div.vis-active) .fa-expand::before {
   content: "◀ ZOOM ▶";
-  color: #8E1B15;
+  /* color: #8E1B15; */
   font-weight: 600;
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
