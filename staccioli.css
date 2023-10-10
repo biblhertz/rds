@@ -480,9 +480,9 @@ margin-bottom: 10px;
 }
 */
 .panel-body {
-/*  height: 260px;*/
+/*  height: 260px;*/  /*manages panel height*/
   text-align: center;
-  padding: 0px;
+  padding: 0px 10px;
 }
 
 .panel-body img {
@@ -502,7 +502,7 @@ ul.nav {
   border: none;
 /*  height: 70px;
   margin: 60px 20px 20px 20px; */
-  width: 280px;
+  max-width: 280px;  /*manages panel width*/
   overflow: hidden;
   text-overflow: ellipsis;
   font-size: 14px;
@@ -516,9 +516,9 @@ ul.nav {
   white-space: wordwrap;
 }
 
-.img-frame {
+/*.img-frame {
   margin-top: 20px;
-}
+}*/
 
 .img-inset,
 .floating {
