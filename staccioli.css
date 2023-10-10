@@ -629,9 +629,9 @@ bs-tab {
   body {
   background-image: none;
   }
-  div#start-page {
+/*  div#start-page {
     display: none
-  }
+  }*/
 }
 
 @media only screen and ( min-width: 992px ) {
