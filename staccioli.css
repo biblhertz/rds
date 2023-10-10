@@ -651,14 +651,15 @@ bs-tab {
 }
 
 @media only screen and ( min-width: 992px ) {
-    #volterra72 .col-md-6,
-    #venezia78 .col-md-6,
-    #gnam81 .col-md-6,
-    #volterra72 .col-sm-6,
-    #venezia78 .col-sm-6,
-    #gnam81 .col-sm-6
-
+    .col-md-6, .col-sm-6
     {
         width: 100%;
     }
 }
+@media only screen and ( min-width: 768px ) {
+  .col-md-6, .col-sm-6
+  {
+      width: 100%;
+  }
+}
+
