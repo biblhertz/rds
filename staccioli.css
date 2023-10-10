@@ -491,7 +491,25 @@ margin-bottom: 10px;
   text-align: center;
   padding: 0px 10px;
 }
-
+.ol-popup {
+  border: 1px groove lightgrey;
+  border-radius: 4px;
+}
+.ol-viewport {
+  margin-top: 2em;
+}
+.ol-viewport {
+  border: thin groove lightgrey;
+}
+.ol-popup-content a {
+  color: black;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 500;
+}
+.ol-popup-content img {
+  display: none;
+}
 .panel-body img {
   max-height: 278px;
   max-width: 278px;
