@@ -598,7 +598,9 @@ div:has(div.vis-active) .fa-expand::before {
   color: whitesmoke;
   font-size: 1.5rem;
 }
-
+bs-tab {
+  margin-bottom: 50px;
+}
 .navbar,
 .navbar-default,
 .navbar-inverse,
