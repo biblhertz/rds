@@ -48,6 +48,7 @@ p {
   font-size: 1.5em;
   line-height: 1.5em;
   color: black;
+  margin: 0 0 1.5em;
 }
 .based p {
   color: black;
@@ -510,7 +511,7 @@ margin-bottom: 10px;
   font-size: 12px;
   font-weight: 500;
 }
-mp-template-item img, .ol-popup-content img {
+.ol-popup img {
   display: none;
 }
 .panel-body img {
