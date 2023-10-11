@@ -247,7 +247,10 @@ ol.page-breadcrumb {
   letter-spacing: 0.125em;
 }
 .page__header--no-image a, .panel__uri a {
-  color: black;
+  color: #8E1C15;
+  text-decoration: none;
+}
+table a:not(.btn) {
   text-decoration: none;
 }
 .page__header--no-image {
