@@ -283,7 +283,7 @@ div.react-sigma {
 }
 
 div[data-flex-layout] h1 {
-  text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25);
+  /* text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25); */
   font-size: 4em;
   color: #8E1C15;
   /* deepskyblue; */
