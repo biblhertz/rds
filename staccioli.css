@@ -240,8 +240,11 @@ ol.page-breadcrumb {
   display: flex;
   align-items: center;
   font-size: 1.5em;
+  letter-spacing: 0.125em;
 }
-
+.page__header--no-image {
+  color: #8E1C15;
+}
 .knowledge-pane__uri-copy-button {
   flex: 0 0 auto;
   opacity: 0;
