@@ -48,7 +48,10 @@ p {
   font-size: 1.5em;
   line-height: 1.5em;
   color: black;
-  margin: 0 0 0em;
+  margin: 0;
+}
+p + p {
+  text-indent: 1em; 
 }
 .based p {
   color: black;
@@ -505,13 +508,13 @@ margin-bottom: 10px;
 .ol-viewport {
   border: thin groove lightgrey;
 }
-.ol-popup a {
+.lk-place {
   color: black;
   text-decoration: none;
   font-size: 12px;
   font-weight: 500;
 }
-.ol-popup img {
+.lk-wiki img {
   display: none;
 }
 .panel-body img {
