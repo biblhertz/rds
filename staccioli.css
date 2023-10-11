@@ -246,6 +246,10 @@ ol.page-breadcrumb {
   font-size: 1.5em;
   letter-spacing: 0.125em;
 }
+.panel__uri a {
+  color: black;
+  text-decoration: none;
+}
 .page__header--no-image {
   color: #8E1C15;
 }
