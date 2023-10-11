@@ -470,7 +470,13 @@ background: radial-gradient(circle, rgba(221,221,221,1) 13%, rgba(237,237,237,1)
   height: 390px;
   width: 320px;
 }
-
+.document_part_of, .copy_epic {
+  font-size: 1.5px;
+  color: black!important;
+} 
+.document_part_of a, .copy_epic a {
+  color: black!important;
+} 
 .panel-default > .panel-heading {
   color: var(--color-dark, #1d0a6e);
   background-color: transparent;
