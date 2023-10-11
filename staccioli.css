@@ -233,6 +233,10 @@ ol.page-breadcrumb {
   width: 400px !important;
   text-overflow: ellipsis;
 }
+.panel-footer a, .panel-footer a:hover {
+  color: black;
+  text-decoration: none;
+}
 
 /*from initial hard coded config*/
 /*start*/
