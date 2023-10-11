@@ -469,13 +469,6 @@ background: radial-gradient(circle, rgba(221,221,221,1) 13%, rgba(237,237,237,1)
   background-color: white;
   height: 390px;
   width: 320px;
-
-border:none;
-margin-right:20px;
-font-size:12px;
-height:120px;
-width: 10%;
-display:inline;"
 }
 
 .panel-default > .panel-heading {
