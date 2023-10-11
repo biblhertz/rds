@@ -56,6 +56,12 @@ p + p {
 .based p {
   color: black;
 }
+.component-page-toolbar__btn_show_source,
+.component-page-toolbar__btn_show_graph,
+.component-page-toolbar__btn_show_diagram,
+.component-page-toolbar__btn_copy_iri {
+  display: none;
+}
 
 #intro, #panels {
   margin-bottom: 3em
@@ -470,10 +476,14 @@ background: radial-gradient(circle, rgba(221,221,221,1) 13%, rgba(237,237,237,1)
   height: 390px;
   width: 320px;
 }
+[data-flex-layout*=columns][data-flex-layout*=-spread], [data-flex-layout*=rows][data-flex-layout*=spread-] {
+  margin-top: 2.75em;
+}
 .document_part_of, .copy_epic {
   font-size: 1.25em;
   color: black!important;
   margin-top: 1.25em;
+  margin-left: 1.35em;
 } 
 .document_part_of a, .copy_epic a {
   color: black!important;
