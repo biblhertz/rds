@@ -504,13 +504,13 @@ margin-bottom: 10px;
 .ol-viewport {
   border: thin groove lightgrey;
 }
-.ol-popup-content a {
+mp-template-item a, .ol-popup-content a {
   color: black;
   text-decoration: none;
   font-size: 12px;
   font-weight: 500;
 }
-.ol-popup-content img {
+mp-template-item img, .ol-popup-content img {
   display: none;
 }
 .panel-body img {
