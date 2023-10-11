@@ -65,6 +65,13 @@ p + p {
   margin-top: 2em;
   margin-bottom: 2em;
 }
+nav.nav-tabs>li>a,
+.nav.nav-tabs>li.active>a {
+  color: #8E1C15!important;
+}
+.nav.nav-tabs>li.active {
+  box-shadow: inset 0 -3px 0 0 #8E1C15;
+}
 h2 {
   margin-top: 1em;
   margin-bottom: -2em;
@@ -85,7 +92,7 @@ h2 {
 h3 {
   margin-top: 0;
   margin-bottom: 1em;
-  text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25);
+  /* text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25); */
   font-size: 2em;
   font-weight: 500;
   color: #8E1C15;
@@ -513,10 +520,6 @@ margin-bottom: 10px;
   text-decoration: none;
   font-size: 12px;
   font-weight: 500;
-}
-.lk-wiki img {
-  display: none;
-}
 .panel-body img {
   max-height: 278px;
   max-width: 278px;
