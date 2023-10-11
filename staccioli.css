@@ -245,7 +245,10 @@ ol.page-breadcrumb {
 .page__header--no-image {
   color: #8E1C15;
 }
-.knowledge-pane__uri-copy-button {
+div.page__header--no-image + div {
+font-size: 1.4em
+}
+  .knowledge-pane__uri-copy-button {
   flex: 0 0 auto;
   opacity: 0;
   visibility: visible;
