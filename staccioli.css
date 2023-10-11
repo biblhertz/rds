@@ -504,7 +504,7 @@ margin-bottom: 10px;
 .ol-viewport {
   border: thin groove lightgrey;
 }
-mp-template-item a, .ol-popup-content a {
+.ol-popup a {
   color: black;
   text-decoration: none;
   font-size: 12px;
