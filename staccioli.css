@@ -723,6 +723,7 @@ footer {
 
 button.SemanticTimeline--fitButton,
 .btn-secondary:focus,
+.btn-secondary:hover,
 .btn-secondary.focus {
   background-color: white !important;
   color: #8E1C15;
