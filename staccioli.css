@@ -723,7 +723,7 @@ button.SemanticTimeline--fitButton,
 .btn-secondary:focus,
 .btn-secondary.focus {
   background-color: white !important;
-  color: black;
+  color: #8E1C15;
   border: thin groove lightgrey;
   padding: 8px 8px 4px 8px;
   position: fixed;
