@@ -19,12 +19,12 @@ body, button, input {
   line-height: 1.5em;
   font-size: 1em;
 }
-
+/*here comes the search bar:*/
 div [data-flex-layout*=row][data-flex-layout*=top-center] > div {
-  width: 80%;
+  width: 60%;
   margin: 30px;
-  min-width: 800px;
-  max-width: 1200px
+  /* min-width: 800px;
+  max-width: 1200px */
 }
 
 div#volterra72,
