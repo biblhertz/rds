@@ -43,6 +43,7 @@ div#gnam81 {
   padding-left: 2%;
   padding-right: 2%;
   background-color: whitesmoke;
+  padding-bottom: 2em;
 }
 .based {
   margin-left: 5%;
@@ -541,8 +542,8 @@ background-color: white;
 }
 
 .panel-default {
-  /* border: thin groove lightgrey; */
-  /* box-shadow: 0 0 10px grey; */
+  border: thin groove lightgrey;
+  box-shadow: none; 
   /* margin: 12px; */
   background-color: white;
   height: 390px;
