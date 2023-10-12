@@ -158,7 +158,9 @@ div#biennale78 div.col-sm-6,
 div#gnam81 div.col-sm-6 {
   width: 100%;
 }
-
+[data-flex-layout*=columns][data-flex-layout*=-center], [data-flex-layout*=rows][data-flex-layout*=center-] {
+  margin-top: 1em;
+}
 div#volterra72 [data-flex-layout*=column][data-flex-layout*=spread-],
 div#volterra72 [data-flex-layout*=row][data-flex-layout*=-spread],
 div#venezia78 [data-flex-layout*=column][data-flex-layout*=spread-],
