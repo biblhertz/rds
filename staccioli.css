@@ -8,8 +8,8 @@ body {
   background-image: url('https://biblhertz.github.io/rds/rsc/BH_LOGO_EN_3C_P_ORIZ.png');
   background-repeat: no-repeat;
   background-position-x: 60px;
-  background-position-y: 50px;
-  background-size: 400px;
+  background-position-y: 40px;
+  background-size: 500px;
 }
 
 body, button, input {
@@ -729,7 +729,6 @@ button.SemanticTimeline--fitButton,
   position: fixed;
   right: 5em;
   top: 5em;
-  /* box-shadow: 0 0 6px grey; */
 }
 
 .fa-expand::before {
@@ -782,8 +781,8 @@ bs-tab {
       background-image: url('https://biblhertz.github.io/rds/rsc/BH_LOGO_EN_3C_P_VERT.png');
       background-repeat: no-repeat;
       background-position-x: 60px;
-      background-position-y: 30px;
-      background-size: 175px 102px;
+      background-position-y: 20px;
+      background-size: 250px;
   }
 }
 
