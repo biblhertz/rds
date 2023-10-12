@@ -715,7 +715,9 @@ footer {
   display: none;
   visibility: hidden;
 }
-
+.tab-content>.tab-pane {
+  background-color: whitesmoke;
+}
 .tab-pane {
   margin-bottom: 0;
   padding-bottom: 20px
