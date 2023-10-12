@@ -1,4 +1,4 @@
-@font-face { font-family: 'Merriweather Sans'; src: url('https://dlib.biblhertz.it/fonts/MerriweatherSans/MerriweatherSans-Regular.eot?') format('eot'), url('https://dlib.biblhertz.it/fonts/MerriweatherSans/MerriweatherSans-Regular.woff') format('woff'), url('https://dlib.biblhertz.it/fonts/MerriweatherSans/MerriweatherSans-Regular.ttf') format('truetype');}
+@font-face { font-family: 'Merriweather'; src: url('https://dlib.biblhertz.it/fonts/Merriweather/Merriweather-Regular.eot?') format('eot'), url('https://dlib.biblhertz.it/fonts/Merriweather/Merriweather-Regular.woff') format('woff'), url('https://dlib.biblhertz.it/fonts/Merriweather/Merriweather-Regular.ttf') format('truetype');}
        
 body {
   background-color: rgb(245, 245, 245);
@@ -9,7 +9,8 @@ body {
   background-size: 300px 67px;
 }
 body, button, input { 
-  font-family: "Merriweather Sans", "Roboto", "Helvetica", "Arial", sans-serif !important;
+  font-family: "Roboto", "Tahoma", Arial, sans-serif !important;
+  /* font-family: "Merriweather Sans", "Roboto", "Helvetica", "Arial", sans-serif ; */
   -webkit-font-smoothing: antialiased; 
   line-height: 1.5em;
   font-size: 1em;
@@ -101,6 +102,7 @@ h2 {
 }
 
 h3 {
+  font-family: "Merriweather", serif;
   margin-top: 0;
   margin-bottom: 1em;
   /* text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25); */
