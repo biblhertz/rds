@@ -575,10 +575,11 @@ margin-left: 360px;
 }
 
 .panel-default > .panel-heading {
-  color: var(--color-dark, #1d0a6e);
+  color: black;
   background-color: transparent;
   text-align: center;
   font-size: 14px;
+  margin: 6px 0 0;
 }
 
 .component-page-toolbar__btn_copy_iri.btn,
@@ -601,6 +602,9 @@ margin-bottom: 10px;
   /*  height: 260px;*/ /*manages panel height*/
   text-align: center;
   padding: 30px 0px 10px;
+}
+.panel-body + .panel-heading {
+  padding: 10px 0px 10px;
 }
 
 .ita {
