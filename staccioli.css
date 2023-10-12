@@ -481,15 +481,12 @@ p.match b:after {
   margin-top: 10px;
 }
 
-div[data-flex-self] {
-  border: thin groove lightgrey;
+/*div[data-flex-self] {
+   border: thin groove lightgrey;
   border-radius: 4px;
-/*  box-shadow: 0 0 10px grey; */
   margin: 12px;
-  background-color: white;
-  /* background: rgb(221,221,221);
-background: radial-gradient(circle, rgba(221,221,221,1) 13%, rgba(237,237,237,1) 73%); */
-}
+  background-color: white; 
+}*/
 
 .panel-footer {
   padding: 10px 15px;
@@ -553,7 +550,7 @@ margin-bottom: 10px;
 .panel-body {
 /*  height: 260px;*/  /*manages panel height*/
   text-align: center;
-  padding: 0px 10px;
+  padding: 20px 0px;
 }
 .ita {
   font-style: italic;
