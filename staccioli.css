@@ -84,6 +84,7 @@ nav.nav-tabs>li>a,
   box-shadow: inset 0 -3px 0 0 #8E1C15;
 }
 h2 {
+    font-family: "Merriweather", serif;
   color: #8E1C15;
   margin-top: 1em;
   margin-bottom: -2em;
@@ -324,6 +325,7 @@ div.react-sigma {
 }
 div[data-flex-layout] h1 {
   /* text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25); */
+  font-family: "Merriweather", serif;
   font-size: 4em;
   color: #8E1C15;
   /* deepskyblue; */
