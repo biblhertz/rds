@@ -5,8 +5,8 @@ body {
   background-image: url('https://biblhertz.github.io/rds/rsc/BH_LOGO_EN_3C_P_ORIZ.png');
   background-repeat: no-repeat;
   background-position-x: 60px;
-  background-position-y: 70px;
-  background-size: 300px 67px;
+  background-position-y: 50px;
+  background-size: 400px;
 }
 body, button, input { 
   font-family: "Roboto", "Tahoma", Arial, sans-serif !important;
@@ -167,7 +167,7 @@ div#gnam81 div.col-sm-6:has(h4) {
 
 div#volterra72 [data-flex-layout*=row][data-flex-layout*=-spread],
 div#biennale78 [data-flex-layout*=row][data-flex-layout*=-spread],
-div#gnam81 [data-flex-layout*=row][data-flex-layout*=-spread],
+div#gnam81 [data-flex-layout*=row][data-flex-layout*=-spread]
 {
     justify-content: start;
 }
