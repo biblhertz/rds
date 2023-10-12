@@ -589,7 +589,7 @@ margin-bottom: 10px;
 .panel-body {
   /*  height: 260px;*/ /*manages panel height*/
   text-align: center;
-  padding: 20px 0px;
+  padding: 30px 0px 10px;
 }
 
 .ita {
@@ -770,7 +770,7 @@ bs-tab {
   /*nuclear option*/
 }
 
-@media only screen and ( max-width: 2250px ) and ( min-width: 1671px ) {
+@media only screen and ( max-width: 2000px ) and ( min-width: 1400px ) {
   body {
       background-image: url('https://biblhertz.github.io/rds/rsc/BH_LOGO_EN_3C_P_VERT.png');
       background-repeat: no-repeat;
@@ -780,7 +780,7 @@ bs-tab {
   }
 }
 
-@media only screen and ( max-width: 1670px ) {
+@media only screen and ( max-width: 1400px ) {
   body {
       background-image: none;
   }
