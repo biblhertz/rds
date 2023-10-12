@@ -83,6 +83,11 @@ nav.nav-tabs>li>a,
 .nav.nav-tabs>li.active {
   box-shadow: inset 0 -3px 0 0 #8E1C15;
 }
+.img-frame img {
+      vertical-align: middle;
+    max-width: 320px;
+    max-height: 340px;
+}
 h2 {
     font-family: "Merriweather", serif;
   color: #8E1C15;
@@ -499,11 +504,10 @@ background: radial-gradient(circle, rgba(221,221,221,1) 13%, rgba(237,237,237,1)
   padding: 0px 10px 10px 10px;
   margin: none;
 }
-
 .panel-default {
-  border: thin groove lightgrey;
+  /* border: thin groove lightgrey; */
   /* box-shadow: 0 0 10px grey; */
-  margin: 12px;
+  /* margin: 12px; */
   background-color: white;
   height: 390px;
   width: 320px;
