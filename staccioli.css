@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: rgb(245, 245, 245);
+  background-color: rgb(230, 230, 230);
   background-image: url('https://biblhertz.github.io/rds/rsc/BH_LOGO_EN_3C_P_ORIZ.png');
   background-repeat: no-repeat;
   background-position-x: 60px;
@@ -34,7 +34,14 @@ div#gnam81 {
   margin-bottom: 1em;
   padding-top: 1em;
 }
-
+.page {
+  margin: 0em;
+}
+.tab-content {
+  margin-left: 2%;
+  margin-right: 2%;
+  background-color: whitesmoke;
+}
 .based {
   margin-left: 5%;
   margin-right: 5%;
@@ -672,9 +679,9 @@ div[data-flex-layout] {
   background-color: transparent;
 }
 
-.justify-content-center {
+/* .justify-content-center {
   background-color: whitesmoke;
-}
+} */
 
 div[data-flex-layout*="rows"],
 div[data-flex-layout*="columns"] {
