@@ -35,11 +35,13 @@ div#gnam81 {
   padding-top: 1em;
 }
 .page {
+  padding-top: 20px;
   margin: 0em;
 }
-.tab-content {
-  margin-left: 2%;
-  margin-right: 2%;
+
+#tabs .tab-content {
+  padding-left: 2%;
+  padding-right: 2%;
   background-color: whitesmoke;
 }
 .based {
@@ -329,12 +331,6 @@ div.page__header--no-image + div {
 }
 
 /*end*/
-
-.page {
-  padding-top: 20px;
-  margin-left: 2%;
-  margin-right: 2%;
-}
 
 .navbar-nav {
   background-color: grey;
