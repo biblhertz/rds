@@ -214,6 +214,17 @@ ol.page-breadcrumb {
   list-style: none; */
   height: var(--breadcrumb-height, 34px);
   position: relative !important;
+  padding: 1em 0em 1em 65px;
+}
+
+.base-breadcrumb a,
+div.page-breadcrumb a,
+ol.page-breadcrumb a,
+.base-breadcrumb li,
+div.page-breadcrumb li,
+ol.page-breadcrumb li {
+  color: #8E1C15;
+  text-decoration: none;
 }
 
 .component-page-toolbar .btn-group {
