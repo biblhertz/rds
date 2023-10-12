@@ -488,6 +488,7 @@ p.match b:after {
 
 .SemanticTimeline--timeline {
   position: relative;
+  margin-top: -10px;
 }
 
 .vis-active {
@@ -721,7 +722,8 @@ footer {
 button.SemanticTimeline--fitButton,
 .btn-secondary:focus,
 .btn-secondary.focus {
-  background-color: white;
+  background-color: white !important;
+  color: black;
   border: thin groove lightgrey;
   padding: 8px 8px 4px 8px;
   position: fixed;
@@ -731,18 +733,18 @@ button.SemanticTimeline--fitButton,
 }
 
 .fa-expand::before {
+  font-family: "Roboto", "Tahoma", Arial, sans-serif !important;
   content: "▲ SCROLL ▼";
   /*"\F065";*/
   /* color: #8E1B15; */
-  font-weight: 600;
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 500;
 }
 
 div:has(div.vis-active) .fa-expand::before {
+  font-family: "Roboto", "Tahoma", Arial, sans-serif !important;
   content: "◀ ZOOM ▶";
   /* color: #8E1B15; */
-  font-weight: 600;
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 500;
 }
 
 .navbar-brand {
