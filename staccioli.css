@@ -237,7 +237,6 @@ border-radius: 6px;
 .page__header-navtabs {
   margin-top: 82px;
 }
-
 .page__header-body {
   float: none;
   margin-left: auto;
@@ -251,12 +250,9 @@ border-radius: 6px;
   display: none;
   visibility: hidden;
 }
-
 div #mp-popover {
   height: 40px;
 }
-
-/*end experiment*/
 
 .base-breadcrumb,
 div.page-breadcrumb,
