@@ -133,7 +133,7 @@ h2 {
 
 .page__header.page__header--no-image {
   padding: 20px 24px;
-  margin-left: 360px;
+  margin-left: 600px;
 }
 
 .page__header.page__header--no-image h2 {
@@ -250,9 +250,9 @@ div #mp-popover {
 .base-breadcrumb,
 div.page-breadcrumb,
 ol.page-breadcrumb {
-  border-bottom: 1px solid var(--input-border-color, rgba(29, 9, 110, .13));
+  /* border-bottom: 1px solid var(--input-border-color, rgba(29, 9, 110, .13)); 
   border-radius: 0;
-  box-shadow: none;
+  box-shadow: none;*/
   /*border: none;
   margin-top: 16px;
   box-shadow: 0 0 6px #ccc;
@@ -814,6 +814,10 @@ bs-tab {
       background-position-y: 20px;
       background-size: 250px;
   }
+  .page__header.page__header--no-image {
+    margin-left: 400px;
+  }
+  
 }
 
 @media only screen and ( max-width: 1400px ) {
