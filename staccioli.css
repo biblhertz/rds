@@ -574,6 +574,15 @@ margin-left: 360px;
   border: thin groove lightgrey;
 }
 
+.special-page  {
+  font-family: "Roboto", "Tahoma", Arial, sans-serif !important;
+  text-align: center;
+  font-size: 1.5em;
+  letter-spacing: 0.125em;;
+}
+.special-page a {
+  color: #8E1C15;
+}
 .panel-default > .panel-heading {
   color: black;
   background-color: transparent;
