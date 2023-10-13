@@ -253,7 +253,6 @@ border-radius: 6px;
 div #mp-popover {
   height: 40px;
 }
-
 .base-breadcrumb,
 div.page-breadcrumb,
 ol.page-breadcrumb {
@@ -272,7 +271,6 @@ ol.page-breadcrumb {
   position: relative !important;
   padding: 30px 0em 1em 70px;
 }
-
 .base-breadcrumb a,
 div.page-breadcrumb a,
 ol.page-breadcrumb a,
