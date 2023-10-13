@@ -658,7 +658,7 @@ ul.nav {
   border: none;
   /*  height: 70px;
     margin: 60px 20px 20px 20px; */
-  max-width: 200px; /*manages panel width*/
+  max-width: 260px; /*manages panel width*/
   overflow: hidden;
   text-overflow: ellipsis;
   font-size: 14px;
@@ -668,7 +668,7 @@ ul.nav {
 }
 
 .panel-footer {
-  padding: 10px 10px 0 10px;
+  padding: 10px 0px 0 0px;
   margin: auto;
 }
 
