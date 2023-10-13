@@ -40,6 +40,15 @@ div#gnam81 {
   padding-top: 20px;
   margin: 1em 0;
 }
+
+.page .row {
+  margin: 0 50px 0 50px;
+}
+.page .rows {
+  padding-top: 2em;
+  border-top: thin groove lightgrey;
+  border-bottom: thin groove lightgrey;
+}
 .page .columns {
   border-top: thin groove lightgrey;
     border-bottom: thin groove lightgrey;
@@ -255,8 +264,8 @@ ol.page-breadcrumb {
   box-shadow: none;*/
   /*border: none;
   margin-top: 16px;
-  box-shadow: 0 0 6px #ccc;
-  box-shadow: none;*/
+  box-shadow: 0 0 6px #ccc;*/
+  box-shadow: none;
   background-color: transparent;
   font-size: 15px;
   /* text-transform: none;
