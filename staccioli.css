@@ -578,10 +578,12 @@ margin-left: 360px;
   font-family: "Roboto", "Tahoma", Arial, sans-serif !important;
   text-align: center;
   font-size: 1.5em;
+  font-weight: 600;
   letter-spacing: 0.125em;;
-}
-.special-page a {
   color: #8E1C15;
+  border-bottom: thin groove lightgrey;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
 }
 .panel-default > .panel-heading {
   color: black;
