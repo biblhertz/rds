@@ -720,7 +720,11 @@ img.floating {
   font-weight: 500;
   font-family: "Roboto", "Tahoma", Arial, sans-serif !important;
 }
-
+.filler {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3em;
+}
 .card {
   border: none;
   font-size: 95%;
