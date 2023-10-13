@@ -38,9 +38,14 @@ div#gnam81 {
 }
 .page {
   padding-top: 20px;
-  margin: 0em;
+  margin: 1em 0;
 }
-
+.page .columns {
+  border-top: thin groove lightgrey;
+    border-bottom: thin groove lightgrey;
+    padding-bottom: 0em;
+    padding-top: 2em;
+}
 #tabs .tab-content .tab-content {
   padding-left: 2%;
   padding-right: 2%;
