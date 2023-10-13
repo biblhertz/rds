@@ -40,7 +40,9 @@ div#gnam81 {
   padding-top: 20px;
   margin: 1em 0;
 }
-
+.panel-heading + .panel-body {
+  padding: 0px;
+}
 .page .row {
   margin: 0 50px 0 50px;
 }
