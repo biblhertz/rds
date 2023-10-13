@@ -811,7 +811,7 @@ bs-tab {
   /*nuclear option*/
 }
 
-@media only screen and ( max-width: 2000px ) and ( min-width: 1400px ) {
+@media only screen and ( max-width: 2000px ) and ( min-width: 1300px ) {
   body {
       background-image: url('https://biblhertz.github.io/rds/rsc/BH_LOGO_EN_3C_P_VERT.png');
       background-repeat: no-repeat;
@@ -825,14 +825,23 @@ bs-tab {
   
 }
 
-@media only screen and ( max-width: 1400px ) {
+@media only screen and ( max-width: 1300px ) {
   body {
-      background-image: none;
-  }
-
-  /*  div#start-page {
-      display: none
-    }*/
+    background-image: url('https://biblhertz.github.io/rds/rsc/BH_LOGO_EN_3C_P_VERT.png');
+    background-repeat: no-repeat;
+    background-position-x: 60px;
+    background-position-y: 40px;
+    background-size: 200px;
+}
+}
+@media only screen and ( max-width: 1100px ) {
+  body {
+    background-image: url('https://biblhertz.github.io/rds/rsc/BH_LOGO_EN_3C_P_VERT.png');
+    background-repeat: no-repeat;
+    background-position-x: 60px;
+    background-position-y: 60px;
+    background-size: 150px;
+}
 }
 
 @media only screen and ( min-width: 992px ) {
