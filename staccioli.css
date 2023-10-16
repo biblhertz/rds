@@ -430,7 +430,7 @@ ul.nav-tabs {
   font-size: 1.75em;
 }
 
-ul.nav-tabs ul.nav-tabs {
+#tabs-pane-100  ul.nav-tabs {
   font-size: 1.5em;
   align-items: start;
   justify-content: left;
@@ -663,10 +663,6 @@ margin-bottom: 10px;
   max-width: 278px;
   object-fit: fill;
   margin: 0px 6px;
-}
-
-ul.nav {
-  text-align: center;
 }
 
 .footer-text {
