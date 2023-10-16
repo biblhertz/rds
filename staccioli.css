@@ -79,6 +79,8 @@ div#gnam81 {
   column-width: 200px;
   column-rule: 1px inset var(--input-border-color, rgba(29, 9, 110, .13));
   color: black;
+  margin-left: 10%;
+  margin-right: 10%
 }
 
 p {
@@ -434,6 +436,7 @@ ul.nav-tabs {
   font-size: 1.5em;
   align-items: start;
   justify-content: left;
+  margin-left: 10%
 }
 
 .nav-tabs > .nav-link.active,
