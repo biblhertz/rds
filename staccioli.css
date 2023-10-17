@@ -860,6 +860,8 @@ bs-tab {
   .col-md-6, .col-sm-6 {
       width: 100%;
   }
+}
+@media only screen and ( max-width: 768px ) {
   .page {
     margin-top: 100px;
   }
