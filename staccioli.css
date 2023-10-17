@@ -146,6 +146,10 @@ h2 {
   padding: 20px 24px;
   margin-left: 600px;
 }
+.base-breadcrumb,
+div.page-breadcrumb,
+ol.page-breadcrumb {
+margin-left: 610px;}
 
 .page__header.page__header--no-image h2 {
   margin: 0;
@@ -826,6 +830,11 @@ bs-tab {
       background-size: 250px;
   }
   .page__header.page__header--no-image {
+    margin-left: 400px;
+  }
+  .base-breadcrumb,
+  div.page-breadcrumb,
+  ol.page-breadcrumb {
     margin-left: 400px;
   }
   
