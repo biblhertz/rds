@@ -372,9 +372,8 @@ div.sigma-container {
   visibility: hidden
 }
 .react-sigma-controls.bottom-right {
-  top: var(--sigma-controls-margin);
+  bottom: var(--sigma-controls-margin);
   right: var(--sigma-controls-margin);
-}
 }
 div.react-sigma {
   position: relative;
