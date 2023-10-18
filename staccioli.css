@@ -152,7 +152,9 @@ ol.page-breadcrumb>.active {
 .base-breadcrumb,
 div.page-breadcrumb,
 ol.page-breadcrumb {
-margin-left: 610px;}
+  margin-left: 610px;
+  width: auto;
+}
 
 .page__header.page__header--no-image h2 {
   margin: 0;
