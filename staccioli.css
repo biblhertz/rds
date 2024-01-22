@@ -792,14 +792,14 @@ button.SemanticTimeline--fitButton,
   font-family: "Roboto", "Tahoma", Arial, sans-serif !important;
   content: "▲ ▼";
   /*"\F065";*/
-  /* color: #8E1B15; */
+   color: #999; 
   font-weight: 500;
 }
 
 div:has(div.vis-active) .fa-expand::before {
   font-family: "Roboto", "Tahoma", Arial, sans-serif !important;
-  content: "◀ ZOOM ▶";
-  /* color: #8E1B15; */
+  content: "◀ ▶";
+  color: #999; 
   font-weight: 500;
 }
 
