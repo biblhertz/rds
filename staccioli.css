@@ -783,6 +783,7 @@ button.SemanticTimeline--fitButton,
   color: #8E1C15;
   border: thin groove lightgrey;
   padding: 0px 8px 0px 8px;
+  width: 6rem;
   /*position: fixed;
   right: 5em;
   top: 5em;*/
