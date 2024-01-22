@@ -790,7 +790,7 @@ button.SemanticTimeline--fitButton,
 
 .fa-expand::before {
   font-family: "Roboto", "Tahoma", Arial, sans-serif !important;
-  content: "▲ ▼";
+  content: "▲ ▼";
   /*"\F065";*/
    color: #999; 
   font-weight: 500;
@@ -798,7 +798,7 @@ button.SemanticTimeline--fitButton,
 
 div:has(div.vis-active) .fa-expand::before {
   font-family: "Roboto", "Tahoma", Arial, sans-serif !important;
-  content: "◀ ▶";
+  content: "◀ ▶";
   color: #999; 
   font-weight: 500;
 }
