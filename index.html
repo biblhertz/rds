@@ -13,7 +13,7 @@
 <script type="text/javascript">
 var params = new URL(document.location).searchParams;
 var target = params.get('show') || params.get('manifest');
-var start = params.get('canvas') || params.get('start');
+var start = params.get('canvas');
 var view = params.get('view');
 
 var mirador = Mirador.viewer({
@@ -21,23 +21,23 @@ var mirador = Mirador.viewer({
   "windows": [
     {
       "loadedManifest": target,
-      "canvasIndex": Number(start) - 1, //canvasIndex is zero based
+      "canvasIndex": Number(start) - 1,    //canvasIndex is zero based
       "thumbnailNavigationPosition": 'far-right'
     } ],
   "workspaceControlPanel": {
-    "enabled": false, // Configure if the control panel should be rendered.  Useful if you want to lock the viewer down to only the configured manifests
+    "enabled": false,                      // Configure if the control panel should be rendered.  Useful if you want to lock the viewer down to only the configured manifests
   },
   "window": {
-      "sideBarPanel": view, // Configure which sidebar is selected by default. Options: info, attribution, canvas, annotations, search
+      "sideBarPanel": view,                // Configure which sidebar is selected by default. Options: info, attribution, canvas, annotations, search
       "sideBarOpen": true, 
       "defaultSidebarPanelWidth": 250,
-      "panels": { // Configure which panels are visible in WindowSideBarButtons
+      "panels": {                          // Configure which panels are visible in WindowSideBarButtons
       "info": true,
       "attribution": true,
-      "canvas": true, //only relevant where we have indices
+      "canvas": true,                      //only relevant where we have indices
       "annotations": true,
-      "search": false,
-      "layers": false,
+      "search": false,                     //only relevant when we'll have search functionality one day
+      "layers": false,                     //seemingly not relevant yet
     }
   }
 });
