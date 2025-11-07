@@ -546,7 +546,7 @@ p.match b:after {
 }
 
 .card .header {
-  height: 80px;
+  height: 60px;
   white-space: normal;
   text-align: left;
   font-size: 14px;
