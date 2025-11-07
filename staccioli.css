@@ -546,7 +546,7 @@ p.match b:after {
 }
 
 .card .header {
-  height: 50px;
+  height: 80px;
   white-space: normal;
   text-align: left;
   font-size: 14px;
@@ -560,7 +560,7 @@ display: inline-table;
 margin-left: 360px;
 } */
 .vis-item.vis-box.card {
-  height: 140px;
+  height: 100px;
   margin-top: 10px;
 }
 
